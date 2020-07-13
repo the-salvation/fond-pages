@@ -1,0 +1,11 @@
+.footer {
+    grid-area: h;
+    background-color: rgb(72, 85, 72);
+}
+.footer img {
+    width: 50px;
+}
+
+.footerData{
+    
+}
