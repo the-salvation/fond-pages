@@ -9,9 +9,8 @@ export default class Slider extends React.Component {
         return (
             <Carousel>
                 <Carousel.Item className={styles.sliderItem} >
-
                     <img
-                        className='d-block w-100'
+                        className={`d-block w-100  ${ styles.imgItem}`}
                         src={bookLecture}
                         alt='book-a-lecture'
                     />
@@ -22,9 +21,8 @@ export default class Slider extends React.Component {
                 </Carousel.Item>
                 
                 <Carousel.Item className={styles.sliderItem}>
-
                     <img
-                        className='d-block w-100'
+                        className={`d-block w-100  ${ styles.imgItem}`}
                         src={aboutUs}
                         alt='about-us'
                     />

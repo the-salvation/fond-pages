@@ -1,21 +1,20 @@
 .opium {
-    color: rgb(136, 126, 126);
+    color: rgb(233, 221, 221);
+    
 }
-
 .opium_headPicture {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
 }
 .opium_headPicture img {
-    max-width: 900px;
-    width: 50%;
+    max-width: 600px;
+    width: 40%;
     padding-bottom: 15px;
     padding-top: 5px;
 }
-
 .opium_wrapper {
     display: flex;
     flex-direction: row;
@@ -27,7 +26,6 @@
     text-align: center;
     margin: 0;
 }
-
 .opium__text,
 .opium__textBlock {
     text-align: justify;

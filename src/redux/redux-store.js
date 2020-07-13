@@ -1,6 +1,6 @@
 import { createStore, combineReducers } from "redux";
 import pageReducer from "./page-reducer";
-import narcoticsReducer from "./narcotics-reducer"
+import narcoticsReducer from "./narcotics-reducer";
 
 let reducers = combineReducers({
     pageReducer: pageReducer,

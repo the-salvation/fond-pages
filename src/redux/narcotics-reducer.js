@@ -29,6 +29,21 @@ const narcoticsReducer = (state = initialState, action) => {
                 case "Cocaine": {
                     return { ...initialState, Cocaine: { visibility: true}, partOfState: action.partOfState};
                 }
+                case "Durman": {
+                    return { ...initialState, Durman: { visibility: true}, partOfState: action.partOfState};
+                }
+                case "DMAA": {
+                    return { ...initialState, DMAA: { visibility: true}, partOfState: action.partOfState};
+                }
+                case "MDMA": {
+                    return { ...initialState, MDMA: { visibility: true}, partOfState: action.partOfState};
+                }
+                case "Alcohol": {
+                    return { ...initialState, Alcohol: { visibility: true}, partOfState: action.partOfState};
+                }
+                case "Konopli": {
+                    return { ...initialState, Konopli: { visibility: true}, partOfState: action.partOfState};
+                }
                 default:
                     return state;
             }

@@ -1,7 +1,6 @@
 .opium {
-    color: rgb(136, 126, 126);
+    color: rgb(233, 221, 221);
 }
-
 .opium_headPicture {
     width: 100%;
     display: flex;
@@ -15,7 +14,6 @@
     padding-bottom: 15px;
     padding-top: 5px;
 }
-
 .opium_wrapper {
     display: flex;
     flex-direction: row;
@@ -27,7 +25,6 @@
     text-align: center;
     margin: 0;
 }
-
 .opium__text,
 .opium__textBlock {
     text-align: justify;

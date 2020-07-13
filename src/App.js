@@ -52,7 +52,7 @@ const App = (props) => {
                     </Switch>
                 </div>
             </div>
-                <Footer/>
+            <Footer/>
         </BrowserRouter>
     );
 };

@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './Footer.module.css';
 import FooterInfo from './FooterInfo/FooterInfo';
 
-const Header = () => {
+const Footer = () => {
     return (
         <header className={classes.footer}>
 
@@ -11,4 +11,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default Footer;
