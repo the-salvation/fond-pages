@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './FooterInfo.module.css';
+import classes from './FooterInfo.module.scss';
 
 const FooterInfo = () => {
     return (

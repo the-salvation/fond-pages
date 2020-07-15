@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './FlexArticle.module.css';
+import style from './FlexArticle.module.scss';
 
 const FlexArticle = ({partOfState}) => {
     return (

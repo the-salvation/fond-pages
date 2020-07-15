@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import classes from './Nav.module.css';
+import classes from './Nav.module.scss';
 import { NavLink } from 'react-router-dom';
 import Toggle from '../../Common/Preloader/Toggle/Toggle';
 import { setNarcoticAC } from '../../redux/narcotics-reducer';

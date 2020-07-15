@@ -19,17 +19,29 @@
     color: tomato;
 }
 
+
+
 .itemNarko{
     padding-left: 20px;
+
+    a {
+        color: wheat;
+        text-decoration:none !important;
+
+        &:hover {
+            color: tomato;
+        }
+    }
+        
+    
 }
-.itemNarko>a {
-    text-transform: capitalize;
-    text-decoration: none;
-    color: wheat;
-    font-size: 1.1em;
-    font-weight: 500;
-    transition: 0.5ms;
-}
-.itemNarko>a:hover {
-    color: tomato;
-}
+// .itemNarko>a {
+//     text-transform: capitalize;
+//     color: wheat;
+//     font-size: 1.1em;
+//     font-weight: 500;
+//     transition: 0.5ms;
+// }
+// .itemNarko>a:hover {
+//     color: tomato;
+// }

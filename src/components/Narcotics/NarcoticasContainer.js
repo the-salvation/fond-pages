@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import style from './narcoticsContainer.module.css'
+import style from './narcoticsContainer.module.scss'
 import { connect } from 'react-redux';
 import FlexArticle from './FlexArticle/FlexArticle';
 

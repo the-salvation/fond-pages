@@ -1,7 +1,7 @@
 import React from "react";
 import bookLecture from "./../../assets/images/slider/book-lecture.jpg";
 import aboutUs from "./../../assets/images/slider/about-us.jpg";
-import styles from './Slider.module.css';
+import styles from './Slider.module.scss';
 import {Carousel} from "react-bootstrap";
 
 export default class Slider extends React.Component {
