@@ -15,6 +15,7 @@ const App = (props) => {
             <div className={classes.app_wrapper}>
                 <Header />
                 <Nav store={store} />
+                
                 <Toggle
                     render={({ on, Toggle }) => (
                         <div>
