@@ -16,14 +16,14 @@ class Nav extends React.Component {
                     <NavLink to="/profile" activeClassName={classes.active}>Головна</NavLink>
                 </div>
                 <Toggle render={({ on, Toggle }) => (
-                    <div>
+                    <div className={classes.item}>
                         {/* <button onClickCapture>k</button> */}
                         <div className={classes.item}>
                             <a onClick={Toggle} href="#" className={classes.active}>Правда&nbsp;про&nbsp;наркотики</a>
                         </div>
                         {
                             on &&
-                            <div>
+                            <div className={classes.item}>
                                 <div className={`${classes.itemNarko}` }>
                                     <NavLink to="/narcotics/opium" onClick={ () => { this.props.setNarcoticAC("Opiumm", this.props.store.Opium)}} activeClassName={classes.active}>Опіум</NavLink>
                                 </div>

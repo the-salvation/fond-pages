@@ -1,23 +1,31 @@
-.app_wrapper {
+.app {
   margin: 0 auto;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  grid-template-areas: 
-  "h h"
-  "n c"
-  "a b";
-  grid-template-rows: 60px 1fr;
-  grid-template-columns: 250px 1fr;
-  // grid-template-columns: repeat(auto-fit, minmax(.3fr, 1.7fr));
-  // min-height: 95vh;
-  // max-height: 100vh;
-  /* grid-gap: 10px; */
+  height: 100%;
+  min-height: 100vh;
+
+  &_wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    min-height: 90vh;
+
+    &_content {
+      background-color: rgba(0, 0, 0, .9);
+      border: 1px black solid
+    }
+
+    &_header header {
+      height: 70px;
+      width: 100%;
+    }
+  }
 }
-.app_wrapper_content {
-    grid-area: c;
-    background-color: rgba(0, 0, 0, .9);
-    border: 1px black solid
-}
+
 
 
 

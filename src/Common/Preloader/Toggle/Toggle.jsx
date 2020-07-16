@@ -1,4 +1,6 @@
 import React from 'react';
+// import classes from '*.module.css';
+import styles from '../../../components/Nav/Nav.module.scss'
 
 export default class Toggle extends React.Component {
     state = {
@@ -14,7 +16,7 @@ export default class Toggle extends React.Component {
     render() {
         const {render} = this.props;
         return (
-            <div>
+            <div className={styles.toggleWrap}>
                 {render({
                     on: this.state.on,
                     Toggle: this.Toggle
