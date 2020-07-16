@@ -4,9 +4,9 @@ import FooterInfo from './FooterInfo/FooterInfo';
 
 const Footer = () => {
     return (
-        <header className={classes.footer}>
+        <footer className={classes.footer}>
             <FooterInfo />
-        </header>
+        </footer>
     )
 }
 

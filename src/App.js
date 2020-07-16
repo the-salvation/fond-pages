@@ -12,48 +12,52 @@ import store from "./redux/state";
 const App = (props) => {
     return (
         <BrowserRouter>
-            <div className={classes.app_wrapper}>
-                <Header />
-                <Nav store={store} />
-                
-                <Toggle
-                    render={({ on, Toggle }) => (
-                        <div>
-                            {/* <button onClick={Toggle}>k</button> */}
-                            {on && <Nav />}
-                        </div>
-                    )}
-                />
-
-                <div className={classes.app_wrapper_content}>
-                    <Switch>
-                        <Route
-                            path="/profile"
-                            render={() => <ProfileContainer />}
-                        />
-                        <Route
-                            path="/narcotics"
-                            render={() => <NarcotisContainer store={store} />}
-                        />
-                        <Route
-                            exact
-                            path="/narcotics/opium"
-                            render={() => <NarcotisContainer store={store} />}
-                        />
-                        <Route
-                            exact
-                            path="/narcotics/barbiturati"
-                            render={() => <NarcotisContainer store={store} />}
-                        />
-                        <Route
-                            exact
-                            path="/narcotics/cocaine"
-                            render={() => <NarcotisContainer store={store} />}
-                        />
-                    </Switch>
+            <div className={classes.app}>
+                <div className={classes.app_wrapper_header}>
+                    <Header />
                 </div>
+                <div className={classes.app_wrapper}>
+                    <div className={classes.app_wrapper_nav}>
+                        <Nav store={store} />
+                        <Toggle
+                            render={({ on, Toggle }) => (
+                                <div className={classes.app_wrapper_toggle}>
+                                    {/* <button onClick={Toggle}>k</button> */}
+                                    {on && <Nav />}
+                                </div>
+                            )}
+                        />
+                    </div>
+                    <div className={classes.app_wrapper_content}>
+                        <Switch>
+                            <Route
+                                path="/profile"
+                                render={() => <ProfileContainer />}
+                            />
+                            <Route
+                                path="/narcotics"
+                                render={() => <NarcotisContainer store={store} />}
+                            />
+                            <Route
+                                exact
+                                path="/narcotics/opium"
+                                render={() => <NarcotisContainer store={store} />}
+                            />
+                            <Route
+                                exact
+                                path="/narcotics/barbiturati"
+                                render={() => <NarcotisContainer store={store} />}
+                            />
+                            <Route
+                                exact
+                                path="/narcotics/cocaine"
+                                render={() => <NarcotisContainer store={store} />}
+                            />
+                        </Switch>
+                    </div>
+                </div>
+                <Footer/>
             </div>
-            <Footer/>
         </BrowserRouter>
     );
 };

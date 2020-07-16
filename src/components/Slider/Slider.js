@@ -7,7 +7,7 @@ import {Carousel} from "react-bootstrap";
 export default class Slider extends React.Component {
     render() {
         return (
-            <Carousel>
+            <Carousel className={styles.slider}>
                 <Carousel.Item className={styles.sliderItem} >
                     <img
                         className={`d-block w-100  ${ styles.imgItem}`}
