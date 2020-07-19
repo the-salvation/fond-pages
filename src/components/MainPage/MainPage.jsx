@@ -1,9 +1,10 @@
 import React from 'react';
 import Slider from '../Slider/Slider';
+import styles from './MainPage.module.scss'
 
-const Profile = (props) => {
+const MainPage = (props) => {
 	return (
-		<div>
+		<div className={styles.sliderWrapper}>
 			{/* <ProfileInfo profile={props.profile} /> */}
 			<Slider/>
 			{/* <MyPostsContainer /> */}
@@ -11,4 +12,4 @@ const Profile = (props) => {
 	)
 }
 
-export default Profile;
+export default MainPage;

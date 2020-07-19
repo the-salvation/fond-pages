@@ -1,20 +1,20 @@
 import React from "react";
 import bookLecture from "./../../assets/images/slider/book-lecture.jpg";
 import aboutUs from "./../../assets/images/slider/about-us.jpg";
-import styles from './Slider.module.css';
+import styles from './Slider.module.scss';
 import {Carousel} from "react-bootstrap";
 
 export default class Slider extends React.Component {
     render() {
         return (
-            <Carousel>
+            <Carousel className={styles.slider}>
                 <Carousel.Item className={styles.sliderItem} >
                     <img
                         className={`d-block w-100  ${ styles.imgItem}`}
                         src={bookLecture}
                         alt='book-a-lecture'
                     />
-                    <Carousel.Caption>
+                    <Carousel.Caption className={styles.carouselCaption}>
                         <h3>Замовити лекцію</h3>
                         <p>Замовте лекцію зараз, це безкоштовно!</p>
                     </Carousel.Caption>
