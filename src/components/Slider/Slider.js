@@ -14,7 +14,7 @@ export default class Slider extends React.Component {
                         src={bookLecture}
                         alt='book-a-lecture'
                     />
-                    <Carousel.Caption>
+                    <Carousel.Caption className={styles.carouselCaption}>
                         <h3>Замовити лекцію</h3>
                         <p>Замовте лекцію зараз, це безкоштовно!</p>
                     </Carousel.Caption>

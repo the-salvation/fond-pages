@@ -1,8 +1,8 @@
 import React from 'react';
 import Slider from '../Slider/Slider';
-import styles from './Profile.module.scss'
+import styles from './MainPage.module.scss'
 
-const Profile = (props) => {
+const MainPage = (props) => {
 	return (
 		<div className={styles.sliderWrapper}>
 			{/* <ProfileInfo profile={props.profile} /> */}
@@ -12,4 +12,4 @@ const Profile = (props) => {
 	)
 }
 
-export default Profile;
+export default MainPage;
