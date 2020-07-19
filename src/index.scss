@@ -26,6 +26,18 @@ code {
     monospace;
 }
 
+div.carousel-inner {
+  display: block;
+  max-height: 650px;
+  height: 100%;
+}
+
+div.carousel-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
 
 @media screen and (max-width: 1280px) {
   

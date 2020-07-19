@@ -13,7 +13,7 @@ class Nav extends React.Component {
         return (
             <nav className={classes.nav}>
                 <div className={`${classes.item} ${classes.active}`}>
-                    <NavLink to="/profile" activeClassName={classes.active}>Головна</NavLink>
+                    <NavLink to="/main" activeClassName={classes.active}>Головна</NavLink>
                 </div>
                 <Toggle render={({ on, Toggle }) => (
                     <div className={classes.item}>
