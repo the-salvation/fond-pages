@@ -4,7 +4,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Nav from "./components/Nav/Nav";
 import { Route, BrowserRouter, Switch } from "react-router-dom";
-import ProfileContainer from "./components/Profile/ProfileContainer";
+import MainPageContainer from "./components/MainPage/MainPageContainer";
 import Toggle from "./Common/Preloader/Toggle/Toggle";
 import NarcotisContainer from "./components/Narcotics/NarcoticasContainer";
 import store from "./redux/state";
@@ -32,7 +32,7 @@ const App = (props) => {
                         <Switch>
                             <Route
                                 path="/profile"
-                                render={() => <ProfileContainer />}
+                                render={() => <MainPageContainer />}
                             />
                             <Route
                                 path="/narcotics"
@@ -53,6 +53,7 @@ const App = (props) => {
                                 path="/narcotics/cocaine"
                                 render={() => <NarcotisContainer store={store} />}
                             />
+                            <Route render={() => <MainPageContainer/>}/>
                         </Switch>
                     </div>
                 </div>
