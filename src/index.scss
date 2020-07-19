@@ -8,7 +8,7 @@ body {
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section, div {
-  display: flex !important;
+  display: flex;
 }
 
 html, body {
@@ -25,3 +25,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Roboto',
     monospace;
 }
+
+
+@media screen and (max-width: 1280px) {
+  
+}
+
+@media screen and (max-width: 1024px) {
+  
+}
+
+@media screen and (max-width: 768px) {
+  div.carousel-inner {
+    max-height: 40vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  div.carousel-inner {
+    max-height: 40vh;
+  }
+}
+
