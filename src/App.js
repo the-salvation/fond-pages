@@ -31,7 +31,7 @@ const App = (props) => {
                     <div className={classes.app_wrapper_content}>
                         <Switch>
                             <Route
-                                path="/profile"
+                                path="/main"
                                 render={() => <MainPageContainer />}
                             />
                             <Route
