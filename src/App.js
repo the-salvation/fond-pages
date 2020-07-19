@@ -38,21 +38,6 @@ const App = (props) => {
                                 path="/narcotics"
                                 render={() => <NarcotisContainer store={store} />}
                             />
-                            <Route
-                                exact
-                                path="/narcotics/opium"
-                                render={() => <NarcotisContainer store={store} />}
-                            />
-                            <Route
-                                exact
-                                path="/narcotics/barbiturati"
-                                render={() => <NarcotisContainer store={store} />}
-                            />
-                            <Route
-                                exact
-                                path="/narcotics/cocaine"
-                                render={() => <NarcotisContainer store={store} />}
-                            />
                             <Route render={() => <MainPageContainer/>}/>
                         </Switch>
                     </div>
