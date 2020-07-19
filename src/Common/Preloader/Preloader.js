@@ -1,6 +1,6 @@
 import React from 'react';
 import preloader from '../../assets/preloaderTransperent.png';
-// import styles from './styles.css';
+// import styles from './styles.scss';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`

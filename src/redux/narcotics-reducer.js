@@ -44,6 +44,9 @@ const narcoticsReducer = (state = initialState, action) => {
                 case "Konopli": {
                     return { ...initialState, Konopli: { visibility: true}, partOfState: action.partOfState};
                 }
+                case "Tramadol": {
+                    return { ...initialState, Tramadol: { visibility: true}, partOfState: action.partOfState};
+                }
                 default:
                     return state;
             }
