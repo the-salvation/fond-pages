@@ -1,7 +1,7 @@
 import React from 'react';
 import Profile from './Profile';
 import { connect } from 'react-redux';
-
+import style from './Profile.module.scss';
 class ProfileContainer extends React.Component {
 	
 	
@@ -9,7 +9,7 @@ class ProfileContainer extends React.Component {
 	
 	render(){
 		return (
-			<div>
+			<div className={style.sliderContainer}>
 				<Profile {...this.props} profile={this.props.profile} />
 			</div>
 		)
