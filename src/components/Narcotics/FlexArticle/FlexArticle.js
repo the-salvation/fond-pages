@@ -22,7 +22,7 @@ const FlexArticle = ({partOfState}) => {
             </div>
             <div className={style.opium_wrapper}>
                 { partOfState.t2 && <h2>{partOfState.t2}</h2> }
-                {partOfState.pic2 && 
+                { partOfState.pic2 && 
                 <div className={style.opium__textBlock}>
                     <p className={style.opium__text}>
                         <img className={style.opium__picture} 
@@ -38,7 +38,7 @@ const FlexArticle = ({partOfState}) => {
             </div>
             <div className={style.opium_wrapper}>
                 { partOfState.t3 && <h2>{partOfState.t3}</h2> }
-                {partOfState.pic3 && 
+                { partOfState.pic3 && 
                 <div className={style.opium__textBlock}>
                     <p className={style.opium__text}>
                         <img className={style.opium__picture} 
@@ -54,7 +54,7 @@ const FlexArticle = ({partOfState}) => {
             </div>
             <div className={style.opium_wrapper}>
                 { partOfState.t4 && <h2>{partOfState.t4}</h2> }
-                {partOfState.pic4 && 
+                { partOfState.pic4 && 
                 <div className={style.opium__textBlock}>
                     <p className={style.opium__text}>
                     <img className={style.opium__picture} 
@@ -70,7 +70,7 @@ const FlexArticle = ({partOfState}) => {
             </div>
             <div className={style.opium_wrapper}>
                 { partOfState.t5 && <h2>{partOfState.t5}</h2> }
-                {partOfState.pic5 && 
+                { partOfState.pic5 && 
                 <div className={style.opium__textBlock}>
                     <p className={style.opium__text}>
                     <img className={style.opium__picture} 
@@ -86,7 +86,7 @@ const FlexArticle = ({partOfState}) => {
             </div>
             <div className={style.opium_wrapper}>
                 { partOfState.t6 && <h2>{partOfState.t6}</h2> }
-                {partOfState.pic6 && 
+                { partOfState.pic6 && 
                 <div className={style.opium__textBlock}>
                     <p className={style.opium__text}>
                     <img className={style.opium__picture} 
@@ -102,7 +102,7 @@ const FlexArticle = ({partOfState}) => {
             </div>
             <div className={style.opium_wrapper}>
                 { partOfState.t7 && <h2>{partOfState.t7}</h2> }
-                {partOfState.pic7 && 
+                { partOfState.pic7 && 
                 <div className={style.opium__textBlock}>
                     <p className={style.opium__text}>
                     <img className={style.opium__picture} 
@@ -118,7 +118,7 @@ const FlexArticle = ({partOfState}) => {
             </div>
             <div className={style.opium_wrapper}>
                 { partOfState.t8 && <h2>{partOfState.t8}</h2> }
-                {partOfState.pic8 && 
+                { partOfState.pic8 && 
                 <div className={style.opium__textBlock}>
                     <p className={style.opium__text}>
                     <img className={style.opium__picture} 
