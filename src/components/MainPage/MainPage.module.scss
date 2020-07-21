@@ -13,6 +13,11 @@
     width: 100%;
 }
 
+.MainPageContainerWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
 @media screen and (max-width: 1920px) {
     .sliderWrapper {
         max-width: 1200px;
