@@ -33,7 +33,7 @@ const App = (props) => {
                         <Switch>
                             <Route
                                 path="/main"
-                                render={() => <MainPageContainer />}
+                                render={() => <MainPageContainer store={store} />}
                             />
                             <Route
                                 path="/narcotics"
@@ -43,7 +43,8 @@ const App = (props) => {
                                 path="/book-a-lecture"
                                 render={() => <BookLectureContainer store={store} />}
                             />
-                            <Route render={() => <MainPageContainer/>}/>
+                            <Route render={() => <MainPageContainer store={store} />}
+                            />
                         </Switch>
                     </div>
                 </div>

@@ -50,6 +50,9 @@ const narcoticsReducer = (state = initialState, action) => {
                 case "BookLecture": {
                     return { ...initialState, BookLecture: { visibility: true}, partOfState: action.partOfState};
                 }
+                case "FAQ": {
+                    return { ...initialState, FAQ: { visibility: true}, partOfState: action.partOfState};
+                }
                 default:
                     return state;
             }

@@ -1,7 +1,7 @@
 import React from 'react';
-import style from './BookLecture.module.scss';
+import style from './RenderPlainText.module.scss';
 
-const BookLecture = ({partOfState}) => {
+const RenderPlainText = ({partOfState}) => {
     return (
         <article className={style.opium}>
             <div className={style.opium_wrapper}>
@@ -68,4 +68,4 @@ const BookLecture = ({partOfState}) => {
     )
 }
 
-export default BookLecture;
+export default RenderPlainText;

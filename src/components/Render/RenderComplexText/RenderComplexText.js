@@ -1,7 +1,7 @@
 import React from 'react';
-import style from './FlexArticle.module.scss';
+import style from './RenderComplexText.module.scss';
 
-const FlexArticle = ({partOfState}) => {
+const RenderComplexText = ({partOfState}) => {
     return (
         <article className={style.opium}>
             <div className={style.opium_wrapper}>
@@ -200,4 +200,4 @@ const FlexArticle = ({partOfState}) => {
     )
 }
 
-export default FlexArticle;
+export default RenderComplexText;
