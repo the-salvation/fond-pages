@@ -8,6 +8,7 @@ import MainPageContainer from "./components/MainPage/MainPageContainer";
 import Toggle from "./Common/Preloader/Toggle/Toggle";
 import NarcotisContainer from "./components/Narcotics/NarcoticasContainer";
 import store from "./redux/state";
+import BookLectureContainer from "./components/BookLectureContainer/BookLectureContainer";
 
 const App = (props) => {
     return (
@@ -37,6 +38,10 @@ const App = (props) => {
                             <Route
                                 path="/narcotics"
                                 render={() => <NarcotisContainer store={store} />}
+                            />
+                            <Route
+                                path="/book-a-lecture"
+                                render={() => <BookLectureContainer store={store} />}
                             />
                             <Route render={() => <MainPageContainer/>}/>
                         </Switch>

@@ -15,6 +15,9 @@ class Nav extends React.Component {
                 <div className={`${classes.item} ${classes.active}`}>
                     <NavLink to="/main" activeClassName={classes.active}>Головна</NavLink>
                 </div>
+                <div className={`${classes.item} ${classes.active}`}>
+                    <NavLink to="/book-a-lecture" onClick={ () => {this.props.setNarcoticAC("BookLecture", this.props.store.BookLecture)}} activeClassName={classes.active}>Замовити&nbsp;лекцію</NavLink>
+                </div>
                 <Toggle render={({ on, Toggle }) => (
                     <div className={classes.item}>
                         {/* <button onClickCapture>k</button> */}
