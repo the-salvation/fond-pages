@@ -54,7 +54,7 @@ const RenderComplexText = ({partOfState}) => {
             </div>
             <div className={style.opium_wrapper}>
                 { partOfState.t4 && <h2>{partOfState.t4}</h2> }
-                { partOfState.pic4 && 
+                { (partOfState.p4 || partOfState.pic4) && 
                 <div className={style.opium__textBlock}>
                     <p className={style.opium__text}>
                     <img className={style.opium__picture} 
@@ -70,132 +70,85 @@ const RenderComplexText = ({partOfState}) => {
             </div>
             <div className={style.opium_wrapper}>
                 { partOfState.t5 && <h2>{partOfState.t5}</h2> }
-                { partOfState.pic5 && 
+                { partOfState.p5 && 
                 <div className={style.opium__textBlock}>
                     <p className={style.opium__text}>
-                    <img className={style.opium__picture} 
+                    { partOfState.pic5 && <img className={style.opium__picture} 
                         align="left" 
                         vspace="5" 
                         hspace="15"
                         src={partOfState.pic5}
                         width="250px" 
-                        height="200px" alt="pic5"/>
+                        height="200px" alt="pic5"/>}
                         &nbsp; &nbsp; {partOfState.p5 && partOfState.p5}
                     </p>
                 </div>}
             </div>
             <div className={style.opium_wrapper}>
                 { partOfState.t6 && <h2>{partOfState.t6}</h2> }
-                { partOfState.pic6 && 
+                { (partOfState.p6 ) && 
                 <div className={style.opium__textBlock}>
                     <p className={style.opium__text}>
-                    <img className={style.opium__picture} 
+                    { partOfState.pic6 && <img className={style.opium__picture} 
                         align="right" 
                         vspace="5" 
                         hspace="15"
                         src={partOfState.pic6}
                         width="250px" 
-                        height="200px" alt="pic6"/>
+                        height="200px" alt="pic6"/>}
                         &nbsp; &nbsp; {partOfState.p6 && partOfState.p6}
                     </p>
                 </div>}
             </div>
             <div className={style.opium_wrapper}>
                 { partOfState.t7 && <h2>{partOfState.t7}</h2> }
-                { partOfState.pic7 && 
+                { partOfState.p7 && 
                 <div className={style.opium__textBlock}>
                     <p className={style.opium__text}>
-                    <img className={style.opium__picture} 
+                    { partOfState.pic7 && <img className={style.opium__picture} 
                         align="left" 
                         vspace="5" 
                         hspace="15"
                         src={partOfState.pic7}
                         width="250px" 
-                        height="200px" alt="pic7"/>
+                        height="200px" alt="pic7"/>}
                         &nbsp; &nbsp; {partOfState.p7 && partOfState.p7}
                     </p>
                 </div>}
             </div>
             <div className={style.opium_wrapper}>
                 { partOfState.t8 && <h2>{partOfState.t8}</h2> }
-                { partOfState.pic8 && 
+                { partOfState.p8 && 
                 <div className={style.opium__textBlock}>
                     <p className={style.opium__text}>
-                    <img className={style.opium__picture} 
+                    { partOfState.pic8 && <img className={style.opium__picture} 
                         align="right" 
                         vspace="5" 
                         hspace="15"
                         src={partOfState.pic8}
                         width="250px" 
-                        height="200px" alt="pic8"/>
+                        height="200px" alt="pic8"/>}
                         &nbsp; &nbsp; {partOfState.p8 && partOfState.p8}
                     </p>
                 </div>}
             </div>
             <div className={style.opium_wrapper}>
                 { partOfState.t9 && <h2>{partOfState.t9}</h2> }
-                { partOfState.pic9 && 
+                { partOfState.p9 && 
                 <div className={style.opium__textBlock}>
                     <p className={style.opium__text}>
-                    <img className={style.opium__picture} 
+                    { partOfState.pic9 && <img className={style.opium__picture} 
                         align="left" 
                         vspace="5" 
                         hspace="15"
                         src={partOfState.pic9}
                         width="250px" 
-                        height="200px" alt="pic9"/>
+                        height="200px" alt="pic9"/>}
                         &nbsp; &nbsp; {partOfState.p9 && partOfState.p9}
                     </p>
                 </div>}
             </div>
-            <div className={style.opium_wrapper}>
-                { partOfState.t10 && <h2>{partOfState.t10}</h2> }
-                { partOfState.pic10 && 
-                <div className={style.opium__textBlock}>
-                    <p className={style.opium__text}>
-                    <img className={style.opium__picture} 
-                        align="right" 
-                        vspace="5" 
-                        hspace="15"
-                        src={partOfState.pic10}
-                        width="250px" 
-                        height="200px" alt="pic10"/>
-                        &nbsp; &nbsp; {partOfState.p10 && partOfState.p10}
-                    </p>
-                </div>}
-            </div>
-            <div className={style.opium_wrapper}>
-                { partOfState.t11 && <h2>{partOfState.t11}</h2> }
-                { partOfState.pic11 && 
-                <div className={style.opium__textBlock}>
-                    <p className={style.opium__text}>
-                    <img className={style.opium__picture} 
-                        align="left" 
-                        vspace="5" 
-                        hspace="15"
-                        src={partOfState.pic11}
-                        width="250px" 
-                        height="200px" alt="pic11"/>
-                        &nbsp; &nbsp; {partOfState.p11 && partOfState.p11}
-                    </p>
-                </div>}
-            </div>
-            <div className={style.opium_wrapper}>
-                { partOfState.t12 && <h2>{partOfState.t12}</h2> }
-                { partOfState.pic12 && 
-                <div className={style.opium__textBlock}>
-                    <p className={style.opium__text}>
-                    <img className={style.opium__picture} 
-                        align="right" 
-                        vspace="5" 
-                        hspace="15"
-                        src={partOfState.pic12}
-                        width="250px" 
-                        height="200px" alt="pic12"/>
-                        &nbsp; &nbsp; {partOfState.p12 && partOfState.p12}
-                    </p>
-                </div>}
-            </div>
+            
         </article>
     )
 }

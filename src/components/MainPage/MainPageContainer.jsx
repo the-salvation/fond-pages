@@ -2,7 +2,7 @@ import React from 'react';
 import MainPage from './MainPage';
 import { connect } from 'react-redux';
 import style from './MainPage.module.scss'
-import RenderPlainText from '../Render/RenderPlainText/RenderPlainText';
+// import RenderPlainText from '../Render/RenderPlainText/RenderPlainText';
 
 class MainPageContainer extends React.Component {
 	debugger;

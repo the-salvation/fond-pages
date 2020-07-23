@@ -54,6 +54,9 @@ class Nav extends React.Component {
                                 <div className={`${classes.itemNarko}`}>
                                     <NavLink to="/narcotics/tramadol" onClick={ () => { this.props.setNarcoticAC("Tramadol", this.props.store.Tramadol)}} activeClassName={classes.active}>Трамадол</NavLink>
                                 </div>
+                                <div className={`${classes.itemNarko}`}>
+                                    <NavLink to="/narcotics/toxicomany" onClick={ () => { this.props.setNarcoticAC("Toxic", this.props.store.Toxic)}} activeClassName={classes.active}>Токсикоманія</NavLink>
+                                </div>
                                 
                             </div>
                         }

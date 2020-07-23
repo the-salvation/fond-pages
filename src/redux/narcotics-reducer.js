@@ -53,6 +53,9 @@ const narcoticsReducer = (state = initialState, action) => {
                 case "FAQ": {
                     return { ...initialState, FAQ: { visibility: true}, partOfState: action.partOfState};
                 }
+                case "Toxic": {
+                    return { ...initialState, Toxic: { visibility: true}, partOfState: action.partOfState};
+                }
                 default:
                     return state;
             }
