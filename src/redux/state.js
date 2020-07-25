@@ -11,7 +11,7 @@ import BarbiPic3 from '../assets/images/barbitura/b3.jpg';
 import LsdPic1 from '../assets/images/lsd/l1.jpg';
 import LsdPic2 from '../assets/images/lsd/l2.jpg';
 import LsdPic3 from '../assets/images/lsd/l3.jpg';
-import LsdPic4 from '../assets/images/lsd/l4.jpg';
+// import LsdPic4 from '../assets/images/lsd/l4.jpg';
 
 import CocPic1 from '../assets/images/cocaine/c1.jpg';
 import CocPic2 from '../assets/images/cocaine/c2.jpg';
