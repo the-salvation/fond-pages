@@ -154,3 +154,4 @@ const RenderComplexText = ({partOfState}) => {
 }
 
 export default RenderComplexText;
+
