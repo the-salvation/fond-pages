@@ -8,8 +8,8 @@ const SET_NARCOTIC = "SET_NARCOTIC";
 // const IS_COCAINE = "IS_COCAINE";
 
 const initialState = {
-    Opiumm: {visibility: false},
-    Barbituratii: {visibility: false},
+    // Opiumm: {visibility: false},
+    // Barbituratii: {visibility: false},
     partOfState: ''
 };
 
@@ -55,6 +55,9 @@ const narcoticsReducer = (state = initialState, action) => {
                 }
                 case "Toxic": {
                     return { ...initialState, Toxic: { visibility: true}, partOfState: action.partOfState};
+                }
+                case "Ephedrin": {
+                    return { ...initialState, Ephedrin: { visibility: true}, partOfState: action.partOfState};
                 }
                 default:
                     return state;
