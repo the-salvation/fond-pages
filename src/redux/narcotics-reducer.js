@@ -8,8 +8,8 @@ const SET_NARCOTIC = "SET_NARCOTIC";
 // const IS_COCAINE = "IS_COCAINE";
 
 const initialState = {
-    Opiumm: {visibility: false},
-    Barbituratii: {visibility: false},
+    // Opiumm: {visibility: false},
+    // Barbituratii: {visibility: false},
     partOfState: ''
 };
 
@@ -46,6 +46,18 @@ const narcoticsReducer = (state = initialState, action) => {
                 }
                 case "Tramadol": {
                     return { ...initialState, Tramadol: { visibility: true}, partOfState: action.partOfState};
+                }
+                case "BookLecture": {
+                    return { ...initialState, BookLecture: { visibility: true}, partOfState: action.partOfState};
+                }
+                case "FAQ": {
+                    return { ...initialState, FAQ: { visibility: true}, partOfState: action.partOfState};
+                }
+                case "Toxic": {
+                    return { ...initialState, Toxic: { visibility: true}, partOfState: action.partOfState};
+                }
+                case "Ephedrin": {
+                    return { ...initialState, Ephedrin: { visibility: true}, partOfState: action.partOfState};
                 }
                 default:
                     return state;
