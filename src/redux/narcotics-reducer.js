@@ -59,6 +59,9 @@ const narcoticsReducer = (state = initialState, action) => {
                 case "Ephedrin": {
                     return { ...initialState, Ephedrin: { visibility: true}, partOfState: action.partOfState};
                 }
+                case "Pervitin": {
+                    return { ...initialState, Pervitin: { visibility: true}, partOfState: action.partOfState};
+                }
                 default:
                     return state;
             }
