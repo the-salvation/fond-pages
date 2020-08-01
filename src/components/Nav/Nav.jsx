@@ -23,7 +23,6 @@ const NavlinkCreator = (props) => {
 }
 
 class Nav extends React.Component {
-debugger;
     render() {
         console.log(this.props);
         return (
