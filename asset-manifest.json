@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fond-pages/static/css/main.ff54a349.chunk.css",
+    "main.css": "/fond-pages/static/css/main.ef1e2f38.chunk.css",
     "main.js": "/fond-pages/static/js/main.3723e5f2.chunk.js",
     "main.js.map": "/fond-pages/static/js/main.3723e5f2.chunk.js.map",
     "runtime-main.js": "/fond-pages/static/js/runtime-main.4b35504b.js",
@@ -9,10 +9,10 @@
     "static/js/2.bba1ad03.chunk.js": "/fond-pages/static/js/2.bba1ad03.chunk.js",
     "static/js/2.bba1ad03.chunk.js.map": "/fond-pages/static/js/2.bba1ad03.chunk.js.map",
     "index.html": "/fond-pages/index.html",
-    "precache-manifest.2a4d56587cc88d968fcc9df3f2565a89.js": "/fond-pages/precache-manifest.2a4d56587cc88d968fcc9df3f2565a89.js",
+    "precache-manifest.86972e9f3e73e01522b695384ec8e80f.js": "/fond-pages/precache-manifest.86972e9f3e73e01522b695384ec8e80f.js",
     "service-worker.js": "/fond-pages/service-worker.js",
     "static/css/2.cbdddf7c.chunk.css.map": "/fond-pages/static/css/2.cbdddf7c.chunk.css.map",
-    "static/css/main.ff54a349.chunk.css.map": "/fond-pages/static/css/main.ff54a349.chunk.css.map",
+    "static/css/main.ef1e2f38.chunk.css.map": "/fond-pages/static/css/main.ef1e2f38.chunk.css.map",
     "static/js/2.bba1ad03.chunk.js.LICENSE.txt": "/fond-pages/static/js/2.bba1ad03.chunk.js.LICENSE.txt",
     "static/media/a1.jpg": "/fond-pages/static/media/a1.b92e0a67.jpg",
     "static/media/a2.jpg": "/fond-pages/static/media/a2.a033e16f.jpg",
@@ -73,7 +73,7 @@
     "static/js/runtime-main.4b35504b.js",
     "static/css/2.cbdddf7c.chunk.css",
     "static/js/2.bba1ad03.chunk.js",
-    "static/css/main.ff54a349.chunk.css",
+    "static/css/main.ef1e2f38.chunk.css",
     "static/js/main.3723e5f2.chunk.js"
   ]
 }

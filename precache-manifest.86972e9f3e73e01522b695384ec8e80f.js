@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "774b94742ed237a188b970b6200f6a9c",
+    "revision": "e7e4cd2d941c2735dbd23bc597485669",
     "url": "/fond-pages/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fond-pages/static/css/2.cbdddf7c.chunk.css"
   },
   {
-    "revision": "d0a014c01515290e5a8c",
-    "url": "/fond-pages/static/css/main.ff54a349.chunk.css"
+    "revision": "23ca407557115961a1f6",
+    "url": "/fond-pages/static/css/main.ef1e2f38.chunk.css"
   },
   {
     "revision": "79e702f60e7b07b269c7",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fond-pages/static/js/2.bba1ad03.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d0a014c01515290e5a8c",
+    "revision": "23ca407557115961a1f6",
     "url": "/fond-pages/static/js/main.3723e5f2.chunk.js"
   },
   {
