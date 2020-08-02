@@ -57,6 +57,8 @@ import ExtPic4 from '../assets/images/extazy/e4.jpg';
 import DmaPic1 from '../assets/images/dmaa/dmaa1.jpg';
 
 import MakPic1 from '../assets/images/poppy/p1.jpg';
+import MakPic2 from '../assets/images/poppy/p2.jpg';
+import MakPic3 from '../assets/images/poppy/p3.jpg';
 
 import DurPic1 from '../assets/images/durman/d1.jpg';
 
@@ -200,6 +202,8 @@ let store = {
         t3: 'Чому мак снодійний заборонений?',
         p3: 'З маку снодійного виробляють наркотик опіум — висушений сік макових голівок.\nЗ опіуму, в свою чергу, виготовляють цілий клас наркотичних засобів, які називають опіатами: морфин, кодеїн, героїн та інші.',
         pic1: MakPic1,
+        pic2: MakPic2,
+        pic3: MakPic3,
     },
     'Alcohol': {
         id: 'Alcohol',

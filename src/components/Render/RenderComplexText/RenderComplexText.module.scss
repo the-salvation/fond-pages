@@ -1,5 +1,11 @@
 .opium {
     color: rgb(233, 221, 221);
+
+    @media screen and (max-width: 768px) {
+        
+        margin-bottom: 25px;
+    
+}
 }
 .opium_headPicture {
     width: 100%;
@@ -7,6 +13,8 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+
+    
 }
 .opium_headPicture img {
     max-width: 900px;
@@ -28,7 +36,11 @@
 .opium__text,
 .opium__textBlock {
     text-align: justify;
-    padding: 5px 20px 5px;
+    padding: 5px 20px 18px;
     margin: 0;
     font-size: 20px;
+
+    @media screen and (max-width: 768px){
+        font-size: 1.5em;
+    }
 }

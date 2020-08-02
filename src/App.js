@@ -24,10 +24,10 @@ const App = (props) => {
                 </BrowserView>
                 <div className={classes.app_wrapper}>
                     <div className={classes.app_wrapper_nav}>
-                        <MobileView>
+                        <MobileView viewClassName={classes.mobileBurger}>
                             <NavBurger store={store}/>
                         </MobileView>
-                        <BrowserView>
+                        <BrowserView viewClassName={classes.browserNav}>
                             <Nav store={store} />
                             <Toggle
                                 render={({ on, Toggle }) => (
@@ -58,9 +58,8 @@ const App = (props) => {
                         </Switch>
                     </div>
                 </div>
-                <BrowserView>
-                </BrowserView>
-                <BrowserView fixed="top">
+                
+                <BrowserView viewClassName={classes.browserFooter}>
                     <Footer/>
 
                 </BrowserView>
