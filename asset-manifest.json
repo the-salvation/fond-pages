@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/fond-pages/static/css/main.ef1e2f38.chunk.css",
-    "main.js": "/fond-pages/static/js/main.3723e5f2.chunk.js",
-    "main.js.map": "/fond-pages/static/js/main.3723e5f2.chunk.js.map",
+    "main.css": "/fond-pages/static/css/main.7321dea8.chunk.css",
+    "main.js": "/fond-pages/static/js/main.299fe8ac.chunk.js",
+    "main.js.map": "/fond-pages/static/js/main.299fe8ac.chunk.js.map",
     "runtime-main.js": "/fond-pages/static/js/runtime-main.4b35504b.js",
     "runtime-main.js.map": "/fond-pages/static/js/runtime-main.4b35504b.js.map",
     "static/css/2.cbdddf7c.chunk.css": "/fond-pages/static/css/2.cbdddf7c.chunk.css",
-    "static/js/2.bba1ad03.chunk.js": "/fond-pages/static/js/2.bba1ad03.chunk.js",
-    "static/js/2.bba1ad03.chunk.js.map": "/fond-pages/static/js/2.bba1ad03.chunk.js.map",
+    "static/js/2.5df5470d.chunk.js": "/fond-pages/static/js/2.5df5470d.chunk.js",
+    "static/js/2.5df5470d.chunk.js.map": "/fond-pages/static/js/2.5df5470d.chunk.js.map",
     "index.html": "/fond-pages/index.html",
-    "precache-manifest.86972e9f3e73e01522b695384ec8e80f.js": "/fond-pages/precache-manifest.86972e9f3e73e01522b695384ec8e80f.js",
+    "precache-manifest.cbe26a19df9aba87c0e3c10a4d3ad08d.js": "/fond-pages/precache-manifest.cbe26a19df9aba87c0e3c10a4d3ad08d.js",
     "service-worker.js": "/fond-pages/service-worker.js",
     "static/css/2.cbdddf7c.chunk.css.map": "/fond-pages/static/css/2.cbdddf7c.chunk.css.map",
-    "static/css/main.ef1e2f38.chunk.css.map": "/fond-pages/static/css/main.ef1e2f38.chunk.css.map",
-    "static/js/2.bba1ad03.chunk.js.LICENSE.txt": "/fond-pages/static/js/2.bba1ad03.chunk.js.LICENSE.txt",
+    "static/css/main.7321dea8.chunk.css.map": "/fond-pages/static/css/main.7321dea8.chunk.css.map",
+    "static/js/2.5df5470d.chunk.js.LICENSE.txt": "/fond-pages/static/js/2.5df5470d.chunk.js.LICENSE.txt",
     "static/media/a1.jpg": "/fond-pages/static/media/a1.b92e0a67.jpg",
     "static/media/a2.jpg": "/fond-pages/static/media/a2.a033e16f.jpg",
     "static/media/a3.jpg": "/fond-pages/static/media/a3.e42f4dda.jpg",
@@ -72,8 +72,8 @@
   "entrypoints": [
     "static/js/runtime-main.4b35504b.js",
     "static/css/2.cbdddf7c.chunk.css",
-    "static/js/2.bba1ad03.chunk.js",
-    "static/css/main.ef1e2f38.chunk.css",
-    "static/js/main.3723e5f2.chunk.js"
+    "static/js/2.5df5470d.chunk.js",
+    "static/css/main.7321dea8.chunk.css",
+    "static/js/main.299fe8ac.chunk.js"
   ]
 }
