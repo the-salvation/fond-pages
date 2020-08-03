@@ -34,4 +34,11 @@ article.opium {
     padding: 5px 20px 5px;
     margin: 0;
     font-size: 20px;
+
+    @media screen and (max-width: 768px){
+        text-align: left;
+        letter-spacing: .5px;
+        padding: 5px;
+        word-wrap: normal;
+    }
 }

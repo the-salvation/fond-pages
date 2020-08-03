@@ -2,11 +2,19 @@
     color: rgb(233, 221, 221);
 
     @media screen and (max-width: 768px) {
-        
-        margin-bottom: 25px;
-    
+        margin-bottom: 50px;
+    }
 }
+
+.opium__picture {
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        margin: 0 ;
+        padding: 10px 0px;
+    }
 }
+
 .opium_headPicture {
     width: 100%;
     display: flex;
@@ -28,6 +36,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center ;
+
+    
 }
 .opium_wrapper h2 {
     text-align: center;
@@ -41,6 +51,10 @@
     font-size: 20px;
 
     @media screen and (max-width: 768px){
-        font-size: 1.5em;
+        flex-direction: column;
+        text-align: left;
+        letter-spacing: .5px;
+        padding: 5px;
+        word-wrap: normal;
     }
 }
