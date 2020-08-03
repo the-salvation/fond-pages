@@ -7,7 +7,7 @@ import { connect } from 'react-redux';
 import { Navbar, Nav } from 'react-bootstrap';
 
 class NavBurger extends React.Component {
-    debugger
+    
     render() {
         console.log(this.props);
         return (
