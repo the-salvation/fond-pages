@@ -15,8 +15,8 @@ export default class Slider extends React.Component {
                         alt='book-a-lecture'
                     />
                     <Carousel.Caption>
-                        <h3 className={"text-danger"}>Замовити лекцію</h3>
-                        <p className={"text-danger"}>Замовте лекцію зараз, це безкоштовно!</p>
+                        <h3 className={"text-danger"}> </h3>
+                        <p className={"text-danger"}> </p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 
@@ -27,8 +27,8 @@ export default class Slider extends React.Component {
                         alt='about-us'
                     />
                     <Carousel.Caption>
-                        <h3 className={"text-danger"}>Узнайте про нас больше!</h3>
-                        <p className={"text-danger"}>фывфвыфыв</p>
+                        <h3 className={"text-danger"}> </h3>
+                        <p className={"text-danger"}> </p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

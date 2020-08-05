@@ -12,7 +12,7 @@ class MainPageContainer extends React.Component {
 					{isBrowser && <MainPage {...this.props}/>}
 					{isMobile && <div className={style.mainPagePic}>[Mobile picture]</div>}
 					{/* <MainPage {...this.props} /> */}
-					<RenderPlainText partOfState={this.props.store.FAQ} />
+					<RenderPlainText partOfState={this.props.store.AboutUs} />
 				</div>
 			
 		)

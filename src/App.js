@@ -11,6 +11,7 @@ import store from "./redux/state";
 import BookLectureContainer from "./components/BookLectureContainer/BookLectureContainer";
 import { BrowserView,MobileView} from "react-device-detect";
 import NavBurger from "./components/NavBurger/NavBurger";
+import FaqPageContainer from "./components/FaqPage/FaqPageContainer";
 
 const App = (props) => {
     return (
@@ -44,6 +45,10 @@ const App = (props) => {
                             <Route
                                 path="/main"
                                 render={() => <MainPageContainer store={store} />}
+                            />
+                            <Route
+                                path="/faq"
+                                render={() => <FaqPageContainer store={store} />}
                             />
                             <Route
                                 path="/narcotics"
