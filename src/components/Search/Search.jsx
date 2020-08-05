@@ -90,8 +90,8 @@ export default class Search extends React.Component {
                             className={'x'}
                             d="m 635.08021,25.714286 37.17876,38.816532 c 0,0 5.08857,5.60515 5.68529,11.841734 1.06622,11.143538 -13.02902,11.127448 -13.02902,11.127448" />
                     </svg>
-                    <div className={'overlay' + " " + 'overlay1'} onClick={() => {this.inputFocus()}}></div>
-                    <div className={'overlay' + " " + 'overlay2'} onClick={() => {this.searchRemove()}}></div>
+                    <div className={`overlay overlay1`} onClick={() => {this.inputFocus()}}></div>
+                    <div className={`overlay overlay2`} onClick={() => {this.searchRemove()}}></div>
                 </div>
             </div>
         );

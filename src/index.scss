@@ -80,7 +80,7 @@ div.search.active svg.magnifyingGlass {
   stroke-dasharray: 210 808;
   stroke-linecap:round;
   stroke-width:6;
-  stroke:#000;
+  stroke:#fff;
   transition: stroke-dasharray 500ms, stroke-dashoffset 500ms;
 }
 .search.active .magnifyingGlassPath {
@@ -93,7 +93,7 @@ div.search.active svg.magnifyingGlass {
   stroke-dashoffset: -92px;
   stroke-linecap:round;
   stroke-width:6;
-  stroke:#000;
+  stroke:#fff;
   transition: stroke-dashoffset 500ms;
   visibility: hidden;
 }
