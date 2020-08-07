@@ -24,7 +24,6 @@ const NavlinkCreator = (props) => {
 
 class Nav extends React.Component {
     render() {
-        console.log(this.props);
         return (
             <nav className={classes.nav}>
                 <div className={`${classes.item} ${classes.active}`}>

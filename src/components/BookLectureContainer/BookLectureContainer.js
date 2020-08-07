@@ -6,11 +6,15 @@ import BookLectureForm from '../Forms/BookLectureForm/BookLectureForm';
 
 class BookLectureContainer extends Component {
     // {this.props.state.partOfState.id === "Opium" ? <OneNarcotic partOfState={this.props.state.partOfState}/> : null }
+    onSubmit = (formData) => {
+        console.log(formData);
+    };
+    
     render() {
         return (
             <div className={style.bookLectureContainer}>
                 <RenderPlainText partOfState={this.props.state.partOfState}/>
-                <BookLectureForm form='bookLecture'/>
+                <BookLectureForm form='bookLecture' onSubmit={this.onSubmit}/>
             </div>
         )
     }
