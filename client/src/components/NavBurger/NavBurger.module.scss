@@ -1,0 +1,44 @@
+.burgerWrapper {
+}
+
+.navWraper {
+    margin: auto !important;
+    margin-top: 10px;
+}
+
+.itemNarkoMobile a.active{
+    color: #fff;
+    text-transform: capitalize !important;
+    text-decoration: none;
+    border: 1px solid tomato;
+    // border-bottom: 1px solid tomato;
+    border-radius: 5px;
+}
+
+.itemNarkoMobile {
+    margin-top: 5px;
+    a {
+        color: wheat;
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 10px;
+
+        .active {
+            color: tomato
+        }
+    }
+}
+
+.accent {
+    a {
+        border: 1px solid grey;
+        border-radius: 5px
+    }
+}
+.accentGreen {
+    a {
+        border: 1px solid greenyellow;
+        border-radius: 5px
+    }
+}
+
