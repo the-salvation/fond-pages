@@ -1,15 +1,6 @@
 const SET_NARCOTIC = "SET_NARCOTIC";
-// const IS_OPIUM = "IS_OPIUM";
-// const IS_DURMAN = "IS_DURMAN";
-// const IS_BARBITURATI = "IS_BARBITURATI";
-// const IS_KONOPLI = "IS_KONOPLI";
-// const IS_ALCOHOL = "IS_ALCOHOL";
-// const IS_LSD = "IS_LSD";
-// const IS_COCAINE = "IS_COCAINE";
 
 const initialState = {
-    // Opiumm: {visibility: false},
-    // Barbituratii: {visibility: false},
     partOfState: ''
 };
 
@@ -17,11 +8,11 @@ const narcoticsReducer = (state = initialState, action) => {
     switch (action.type) {
         case SET_NARCOTIC: {
             switch (action.id) {
-                case "Opiumm": {
-                    return { ...initialState, Opiumm: { visibility: true}, partOfState: action.partOfState};
+                case "Opium": {
+                    return { ...initialState, Opium: { visibility: true}, partOfState: action.partOfState};
                 }
-                case "Barbituratii": {
-                    return { ...initialState, Barbituratii: { visibility: true}, partOfState: action.partOfState};
+                case "Barbiturati": {
+                    return { ...initialState, Barbiturati: { visibility: true}, partOfState: action.partOfState};
                 }
                 case "Lsd": {
                     return { ...initialState, Lsd: { visibility: true}, partOfState: action.partOfState};
@@ -61,6 +52,9 @@ const narcoticsReducer = (state = initialState, action) => {
                 }
                 case "Pervitin": {
                     return { ...initialState, Pervitin: { visibility: true}, partOfState: action.partOfState};
+                }
+                case "Poppy": {
+                    return { ...initialState, Poppy: { visibility: true}, partOfState: action.partOfState};
                 }
                 default:
                     return state;

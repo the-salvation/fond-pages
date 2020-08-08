@@ -3,7 +3,7 @@ import { Field, reduxForm } from 'redux-form';
 import styles from './BookLectureForm.module.scss'
 
 
-const BookLectureForm = props => {
+const BLForm = props => {
     const { handleSubmit, pristine, reset, submitting } = props;
     return (
         <form onSubmit={handleSubmit} className={styles.form_style}>
@@ -52,7 +52,7 @@ const BookLectureForm = props => {
                 </div>
             </div>
             <div>
-                <label>Возраст дітей</label>
+                <label>Вік дітей</label>
                 <div>
                     <label>
                         <Field name="age" component="input" type="radio" value="yuong" />
@@ -93,6 +93,8 @@ const BookLectureForm = props => {
     );
 };
 
-export default reduxForm({
+const BookLectureForm =  reduxForm({
     form: 'bookLecture', // a unique identifier for this form
-})(BookLectureForm);
+})(BLForm);
+
+export default BookLectureForm;

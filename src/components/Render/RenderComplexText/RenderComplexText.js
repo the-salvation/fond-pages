@@ -22,7 +22,7 @@ const RenderComplexText = ({partOfState}) => {
             </div>
             <div className={style.opium_wrapper}>
                 { partOfState.t2 && <h2>{partOfState.t2}</h2> }
-                { partOfState.pic2 && 
+                { (partOfState.p2 || partOfState.pic2) && 
                 <div className={style.opium__textBlock}>
                     <p className={style.opium__text}>
                         <img className={style.opium__picture} 
@@ -38,7 +38,7 @@ const RenderComplexText = ({partOfState}) => {
             </div>
             <div className={style.opium_wrapper}>
                 { partOfState.t3 && <h2>{partOfState.t3}</h2> }
-                { partOfState.pic3 && 
+                { (partOfState.p3 || partOfState.pic3) && 
                 <div className={style.opium__textBlock}>
                     <p className={style.opium__text}>
                         <img className={style.opium__picture} 

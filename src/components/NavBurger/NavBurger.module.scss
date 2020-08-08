@@ -1,44 +1,44 @@
-.nav {
-    background-color: rgba(0, 0, 0, .8);
-    padding: 20px;
-    border-radius: 0px;
-    flex-direction: column;
+.burgerWrapper {
 }
-.item {
-    flex-direction: column;
+
+.navWraper {
+    margin: auto !important;
+    margin-top: 10px;
 }
-.item a {
-    color: wheat;
-    font-size: 1.3em;
+
+.itemNarkoMobile a.active{
+    color: #fff;
+    text-transform: capitalize !important;
     text-decoration: none;
-}
-.item a.active {
-    color: tomato;
-}
-
-.toggleWrap {
-    flex-direction: column;
+    border: 1px solid tomato;
+    // border-bottom: 1px solid tomato;
+    border-radius: 5px;
 }
 
-.linksWrapper {
-    font-size: 16px;
-    flex-direction: column;
-}
-
-.itemNarko{
-    padding-left: 20px;
-
+.itemNarkoMobile {
+    margin-top: 5px;
     a {
         color: wheat;
-        text-decoration:none !important;
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 10px;
 
-        &:hover {
-            color: tomato;
+        .active {
+            color: tomato
         }
     }
-        
 }
 
-.itemNarko a.active {
-    color: tomato;
+.accent {
+    a {
+        border: 1px solid grey;
+        border-radius: 5px
+    }
 }
+.accentGreen {
+    a {
+        border: 1px solid greenyellow;
+        border-radius: 5px
+    }
+}
+
