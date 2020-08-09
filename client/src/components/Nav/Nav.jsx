@@ -6,18 +6,28 @@ import Toggle from '../../Common/Preloader/Toggle/Toggle';
 import { setNarcoticAC } from '../../redux/narcotics-reducer';
 import { connect } from 'react-redux';
 
-// 
+const NavlinkCreator = (props) => {
+    return (
+        props.store.map( n =>
+            <div className={`${classes.itemNarko}`}>
+                <NavLink 
+                    to={`narcotics/${n.id}}`} 
+                    onClick={() => { setNarcoticAC(`${n.a}`, n.id) }} 
+                    activeClassName={classes.active}
+                >
+                    {`${n.name}`}
+                </NavLink>
+            </div>
+        )
+    )
+}
 
 class Nav extends React.Component {
     render() {
-        console.log(this.props);
         return (
             <nav className={classes.nav}>
                 <div className={`${classes.item} ${classes.active}`}>
-                    <NavLink to="/main" onClick={() => { this.props.setNarcoticAC('AboutUs', this.props.store.AboutUs) }} activeClassName={classes.active}>Головна</NavLink>
-                </div>
-                <div className={`${classes.item} ${classes.active}`}>
-                    <NavLink to="/faq" onClick={() => { this.props.setNarcoticAC("FAQ", this.props.store.FAQ) }} activeClassName={classes.active}>F.A.Q</NavLink>
+                    <NavLink to="/main" onClick={() => { this.props.setNarcoticAC('FAQ', this.props.store.FAQ) }} activeClassName={classes.active}>Головна</NavLink>
                 </div>
                 <div className={`${classes.item} ${classes.active}`}>
                     <NavLink to="/book-a-lecture" onClick={() => { this.props.setNarcoticAC("BookLecture", this.props.store.BookLecture) }} activeClassName={classes.active}>Замовити&nbsp;лекцію</NavLink>
