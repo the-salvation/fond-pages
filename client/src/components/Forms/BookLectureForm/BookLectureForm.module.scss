@@ -1,7 +1,40 @@
-.form_style {
+.formStyle {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-around;
     color: wheat;
+    // max-width: 70%;
+    margin: 0 auto;
+}
+
+.formElements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.formElements select {
+    margin-left: 20px;
+}
+
+.firstName,
+.lastName,
+.email,
+.phone,
+.age,
+.lectureType,
+.notes,
+.formBtns
+{
+    margin-left: 10px;
+}
+
+.age {
+    flex-direction: row;
+}
+.ageInner {
+    flex-direction: column;
+    align-items: flex-end;;
 }
