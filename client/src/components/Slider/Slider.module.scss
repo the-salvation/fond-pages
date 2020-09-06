@@ -32,11 +32,18 @@
     }
 }
 
+@media screen and (max-width: 1440px) {
+    .slider {
+        height: 550px;
+    }
+    .imgItem {
+        max-width: 700px;
+    }
+}
+
 @media screen and (max-width: 1280px) {
     .slider {
-        max-height: 450px;
-        height: 100%;
-        min-height: 30vh;
+        height: 550px;
     }
     .imgItem {
         max-width: 700px;
@@ -45,9 +52,7 @@
 
 @media screen and (max-width: 1024px) {
     .slider {
-        max-height: 350px;
-        height: 100%;
-        min-height: 30vh;
+        height: 350px;
     }
     .imgItem {
         max-width: 450px;
@@ -56,24 +61,20 @@
 
 @media screen and (max-width: 768px) {
     .slider {
-        max-height: 350px;
-        height: 100%;
-        min-height: 30vh;
+        height: 350px;
     }
     .imgItem {
-        max-height: 350px;
-        max-width: 350px;
+        // max-height: 350px;
+        max-width: 450px;
     }
 }
 
 @media screen and (max-width: 500px) {
     .slider {
-        max-height: 350px;
-        height: 100%;
-        min-height: 30vh;
+        height: 350px;
     }
     .imgItem {
-        max-height: 350px;
+        // max-height: 350px;
         max-width: 350px;
     }
 }
