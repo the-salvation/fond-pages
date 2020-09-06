@@ -9,7 +9,9 @@ class BookLectureContainer extends Component {
     onSubmit = (formData) => {
         console.log(formData);
     };
-    
+    componentWillUpdate() {
+        console.log("will ? ")
+    }
     render() {
         return (
             <div className={style.bookLectureContainer}>
