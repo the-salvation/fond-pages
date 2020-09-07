@@ -16,7 +16,7 @@ class BookLectureContainer extends Component {
 
         axios({
             method: "POST", 
-            url:"http://localhost:3000/send", 
+            url:"https://www.fondnn.org.ua/book-a-lecture/send", 
             data: {
                 name: formData.firstName,
                 email: formData.email,
@@ -24,10 +24,10 @@ class BookLectureContainer extends Component {
             }
         }).then((response)=>{
             if (response.data.msg === 'success'){
-                alert("Email sent, awesome!"); 
-                this.resetForm()
+                console.log("Email sent, awesome!"); 
+                // this.resetForm()
             }else if(response.data.msg === 'fail'){
-                alert("Oops, something went wrong. Try again")
+                console.log("Oops, something went wrong. Try again")
             }
         })
     // }

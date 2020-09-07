@@ -6,7 +6,7 @@ const creds = require('./config');
 
 
 var transport = {
-  host: 'mail.adm.tools', // e.g. smtp.gmail.com
+  host: 'smtp.gmail.com', // e.g. smtp.gmail.com
   auth: {
     user: creds.USER,
     pass: creds.PASS
