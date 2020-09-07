@@ -6,15 +6,16 @@ import styles from './BookLectureForm.module.scss'
 const BLForm = props => {
     const { handleSubmit, pristine, reset, submitting } = props;
     return (
-        <form onSubmit={handleSubmit} className={styles.formStyle}>
+        <form onSubmit={handleSubmit} className={styles.formStyle} > 
             <div className={`${styles.formElements} ${styles.firstName} `}>
-                <label>Ім'я</label>
                 <Field
                     name="firstName"
                     component="input"
                     type="text"
-                    placeholder="Ім'я"
                 />
+                <label className={styles.labelName}>
+                    <span className={styles.contentName}>Ім'я</span>
+                </label>
             </div>
             <div  className={`${styles.formElements} ${styles.lastName}`}>
                 <label>Прізвище</label>
@@ -22,7 +23,6 @@ const BLForm = props => {
                     name="lastName"
                     component="input"
                     type="text"
-                    placeholder="Прізвище"
                 />
             </div>
             <div className={`${styles.formElements} ${styles.email}`}>
@@ -31,7 +31,6 @@ const BLForm = props => {
                     name="email"
                     component="input"
                     type="email"
-                    placeholder="Ваш Email"
                 />
             </div>
             <div className={`${styles.formElements} ${styles.phone}`}>
@@ -40,7 +39,6 @@ const BLForm = props => {
                     name="phone"
                     component="input"
                     type="phone"
-                    placeholder="Номер телефону"
                 />
             </div>
             <div className={`${styles.formElements} ${styles.age}`}>
@@ -72,7 +70,9 @@ const BLForm = props => {
                 <Field name="notes" component="textarea" />
             </div>
             <div className={`${styles.formElements} ${styles.formBtns}`}>
-                <button type="submit" disabled={pristine || submitting}>Надіслати</button>
+                <button type="submit" disabled={pristine || submitting} onClick={reset}>
+                    Надіслати
+                </button>
                 <button type="button" disabled={pristine || submitting} onClick={reset}>
                     Очистити форму
                 </button>
