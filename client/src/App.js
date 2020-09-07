@@ -152,7 +152,7 @@ class App extends Component {
                     <BrowserView viewClassName={classes.browserFooter}>
                         <Footer/>
                     </BrowserView>
-                    {/* <p className="App-intro">{this.state.data}</p> */}
+                    <p className="App-intro">{this.state.data}</p>
                 </div>
             </BrowserRouter>
         );
