@@ -2,7 +2,6 @@ import React from 'react'
 import { Field, reduxForm } from 'redux-form';
 import styles from './BookLectureForm.module.scss'
 
-
 const BLForm = props => {
     const { handleSubmit, pristine, reset, submitting } = props;
     return (
