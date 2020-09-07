@@ -6,21 +6,21 @@ import Toggle from '../../Common/Preloader/Toggle/Toggle';
 import { setNarcoticAC } from '../../redux/narcotics-reducer';
 import { connect } from 'react-redux';
 
-const NavlinkCreator = (props) => {
-    return (
-        props.store.map( n =>
-            <div className={`${classes.itemNarko}`}>
-                <NavLink 
-                    to={`narcotics/${n.id}}`} 
-                    onClick={() => { setNarcoticAC(`${n.a}`, n.id) }} 
-                    activeClassName={classes.active}
-                >
-                    {`${n.name}`}
-                </NavLink>
-            </div>
-        )
-    )
-}
+// const NavlinkCreator = (props) => {
+//     return (
+//         props.store.map( n =>
+//             <div className={`${classes.itemNarko}`}>
+//                 <NavLink 
+//                     to={`narcotics/${n.id}}`} 
+//                     onClick={() => { setNarcoticAC(`${n.a}`, n.id) }} 
+//                     activeClassName={classes.active}
+//                 >
+//                     {`${n.name}`}
+//                 </NavLink>
+//             </div>
+//         )
+//     )
+// }
 
 class Nav extends React.Component {
     render() {
