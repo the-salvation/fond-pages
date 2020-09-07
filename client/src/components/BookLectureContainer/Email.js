@@ -9,10 +9,11 @@ export default function InlineLink(children) {
         <Email title='Fond-page'>
             <Item>
                 Hello !
-                {/* <A style={{ paddingLeft: 10 }}  href='https://mailtrap.io'>Click me!</A> */}
             </Item>
             <Item>
-                {/* {children} */}
+                <Span>
+                    Client first name: {firstName}
+                </Span>
             </Item>
         </Email>
     )
