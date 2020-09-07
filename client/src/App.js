@@ -98,7 +98,7 @@ class App extends Component {
     };
     
     render() {
-        console.log(this.state.data)
+        console.log(this.state.data);
         return (
             <BrowserRouter>
                 <div className={classes.app}>

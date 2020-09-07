@@ -2,7 +2,6 @@ import React from 'react'
 import { Field, reduxForm } from 'redux-form';
 import styles from './BookLectureForm.module.scss'
 
-
 const BLForm = props => {
     const { handleSubmit, pristine, reset, submitting } = props;
     return (
@@ -18,7 +17,9 @@ const BLForm = props => {
                 </label>
             </div>
             <div  className={`${styles.formElements} ${styles.lastName}`}>
-                <label>Прізвище</label>
+                <label className={styles.labelName}> 
+                    <span className={styles.contentName}>Прізвище</span> 
+                </label>
                 <Field
                     name="lastName"
                     component="input"
@@ -26,7 +27,9 @@ const BLForm = props => {
                 />
             </div>
             <div className={`${styles.formElements} ${styles.email}`}>
-                <label>Email</label>
+                <label className={styles.labelName}> 
+                    <span className={styles.contentName}>Email</span> 
+                </label>
                 <Field
                     name="email"
                     component="input"
@@ -34,14 +37,16 @@ const BLForm = props => {
                 />
             </div>
             <div className={`${styles.formElements} ${styles.phone}`}>
-                <label>Телефон</label>
+                <label className={styles.labelName}> 
+                    <span className={styles.contentName}>Телефон</span> 
+                </label>
                 <Field
                     name="phone"
                     component="input"
                     type="phone"
                 />
             </div>
-            <div className={`${styles.formElements} ${styles.age}`}>
+            {/* <div className={`${styles.formElements} ${styles.age}`}>
                 <label>Вік дітей</label>
                 <div className={`${styles.ageInner}`}>
                     <label>
@@ -64,11 +69,11 @@ const BLForm = props => {
                     <option value="aids">Правда про СНІД/ВІЛ</option>
                     <option value="fairytail">Казка для 1-3 класів</option>
                 </Field>
-            </div>
-            <div className={`${styles.formElements} ${styles.notes}`}>
+            </div> */}
+            {/* <div className={`${styles.formElements} ${styles.notes}`}>
                 <label>Notes</label>
                 <Field name="notes" component="textarea" />
-            </div>
+            </div> */}
             <div className={`${styles.formElements} ${styles.formBtns}`}>
                 <button type="submit" disabled={pristine || submitting} onClick={reset}>
                     Надіслати

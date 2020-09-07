@@ -69,7 +69,7 @@
 
 .formElements label {
     position: absolute;
-    bottom: -10px;
+    bottom: -20px;
     left: 0%;
     height: 100%;
     width: 100%;
@@ -83,7 +83,7 @@
         width: 100%;
         bottom: -2px;
         left: 0px;
-        border-bottom: 3px solid blue;
+        border-bottom: 3px solid rgb(237, 240, 59);
         transform: translateX(-100%);
         transition: transform .3s ease;
     }
