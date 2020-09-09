@@ -1,50 +1,54 @@
 import React from 'react'
-import { Field, reduxForm } from 'redux-form';
+import { Field, reduxForm, isDirty } from 'redux-form';
 import styles from './BookLectureForm.module.scss'
 
 const BLForm = props => {
     const { handleSubmit, pristine, reset, submitting } = props;
     return (
-        <form onSubmit={handleSubmit} className={styles.formStyle} > 
+        <form onSubmit={handleSubmit} className={styles.formStyle}  > 
+        <input type='hidden' value='nothing'></input>
             <div className={`${styles.formElements} ${styles.firstName} `}>
                 <Field
                     name="firstName"
                     component="input"
                     type="text"
+                    autoComplete="new-password"
                 />
                 <label className={styles.labelName}>
                     <span className={styles.contentName}>Ім'я</span>
                 </label>
             </div>
-            <div  className={`${styles.formElements} ${styles.lastName}`}>
-                <label className={styles.labelName}> 
-                    <span className={styles.contentName}>Прізвище</span> 
-                </label>
+            <div  className={ `${styles.formElements} ${styles.lastName}`}>
                 <Field
                     name="lastName"
                     component="input"
                     type="text"
+                    autoComplete="okay-bro"
                 />
+                <label className={styles.labelName}> 
+                    <span className={styles.contentName}>Прізвище</span> 
+                </label>
             </div>
             <div className={`${styles.formElements} ${styles.email}`}>
-                <label className={styles.labelName}> 
-                    <span className={styles.contentName}>Email</span> 
-                </label>
                 <Field
                     name="email"
                     component="input"
                     type="email"
                 />
+                <label className={styles.labelName}> 
+                    <span className={styles.contentName}>Email</span> 
+                </label>
             </div>
             <div className={`${styles.formElements} ${styles.phone}`}>
-                <label className={styles.labelName}> 
-                    <span className={styles.contentName}>Телефон</span> 
-                </label>
                 <Field
                     name="phone"
                     component="input"
                     type="phone"
+                    autoComplete="league-of-legends"
                 />
+                <label className={styles.labelName}> 
+                    <span className={styles.contentName}>Телефон</span> 
+                </label>
             </div>
             {/* <div className={`${styles.formElements} ${styles.age}`}>
                 <label>Вік дітей</label>
