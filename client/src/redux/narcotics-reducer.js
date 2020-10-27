@@ -17,8 +17,14 @@ const narcoticsReducer = (state = initialState, action) => {
                 case "Lsd": {
                     return { ...initialState, Lsd: { visibility: true}, partOfState: action.partOfState};
                 }
+                case "Salt": {
+                    return { ...initialState, Salt: { visibility: true}, partOfState: action.partOfState};
+                }
                 case "Cocaine": {
                     return { ...initialState, Cocaine: { visibility: true}, partOfState: action.partOfState};
+                }
+                case "Heroine": {
+                    return { ...initialState, Heroine: { visibility: true}, partOfState: action.partOfState};
                 }
                 case "Durman": {
                     return { ...initialState, Durman: { visibility: true}, partOfState: action.partOfState};
@@ -58,6 +64,9 @@ const narcoticsReducer = (state = initialState, action) => {
                 }
                 case "Poppy": {
                     return { ...initialState, Poppy: { visibility: true}, partOfState: action.partOfState};
+                }
+                case "Narcotics": {
+                    return { ...initialState, Narcotics: { visibility: true}, partOfState: action.partOfState};
                 }
                 default:
                     return state;

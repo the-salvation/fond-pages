@@ -42,16 +42,28 @@ class Nav extends React.Component {
                             on &&
                             <div className={classes.item}>
                                 <div className={`${classes.itemNarko}`}>
+                                    <NavLink to="/narcotics/narcotics" onClick={() => { this.props.setNarcoticAC("Narcotics", this.props.store.Narcotics) }} activeClassName={classes.active}>Дія&nbsp;наркотиків</NavLink>
+                                </div>
+                                <div className={`${classes.itemNarko}`}>
+                                    <NavLink to="/narcotics/konopli" onClick={() => { this.props.setNarcoticAC("Konopli", this.props.store.Konopli) }} activeClassName={classes.active}>Коноплі</NavLink>
+                                </div>
+                                <div className={`${classes.itemNarko}`}>
                                     <NavLink to="/narcotics/opium" onClick={() => { this.props.setNarcoticAC("Opium", this.props.store.Opium) }} activeClassName={classes.active}>Опіум</NavLink>
                                 </div>
                                 <div className={`${classes.itemNarko}`}>
                                     <NavLink to="/narcotics/barbiturati" onClick={() => { this.props.setNarcoticAC("Barbiturati", this.props.store.Barbiturati) }} activeClassName={classes.active}>Барбітурати</NavLink>
                                 </div>
                                 <div className={`${classes.itemNarko}`}>
+                                    <NavLink to="/narcotics/salt" onClick={() => { this.props.setNarcoticAC("Salt", this.props.store.Salt) }} activeClassName={classes.active}>Сіль</NavLink>
+                                </div>
+                                <div className={`${classes.itemNarko}`}>
                                     <NavLink to="/narcotics/lsd" onClick={() => { this.props.setNarcoticAC("Lsd", this.props.store.Lsd) }} activeClassName={classes.active}>ЛСД</NavLink>
                                 </div>
                                 <div className={`${classes.itemNarko}`}>
                                     <NavLink to="/narcotics/cocaine" onClick={() => { this.props.setNarcoticAC("Cocaine", this.props.store.Cocaine) }} activeClassName={classes.active}>КокаЇн</NavLink>
+                                </div>
+                                <div className={`${classes.itemNarko}`}>
+                                    <NavLink to="/narcotics/heroine" onClick={() => { this.props.setNarcoticAC("Heroine", this.props.store.Heroine) }} activeClassName={classes.active}>Героїн</NavLink>
                                 </div>
                                 <div className={`${classes.itemNarko}`}>
                                     <NavLink to="/narcotics/durman" onClick={() => { this.props.setNarcoticAC("Durman", this.props.store.Durman) }} activeClassName={classes.active}>Дурман</NavLink>
