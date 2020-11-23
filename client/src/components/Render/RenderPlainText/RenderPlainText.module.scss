@@ -1,3 +1,9 @@
+.opium {
+    @media screen and (max-width: 768px) {
+        padding-bottom: 60px !important;
+    }
+}
+
 article.opium {
     margin-top: 25px;
     color: rgb(233, 221, 221);
