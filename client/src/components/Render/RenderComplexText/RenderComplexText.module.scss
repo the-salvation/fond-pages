@@ -2,7 +2,9 @@
     color: rgb(233, 221, 221);
 
     @media screen and (max-width: 768px) {
-        margin-bottom: 50px;
+        // margin-bottom: 100px !important;
+        padding-bottom: 100px !important;
+        // border: 5px solid red;
     }
 }
 
@@ -16,8 +18,8 @@
 }
 
 .opium_headPicture {
-    width: 100%;
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
