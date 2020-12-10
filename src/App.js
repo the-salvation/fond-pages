@@ -14,6 +14,7 @@ import NavBurger from "./components/NavBurger/NavBurger";
 import FaqPageContainer from "./components/FaqPage/FaqPageContainer";
 
 const App123 = (props) => {
+    console.log();
     return (
         <BrowserRouter>
             <div className={classes.app}>
