@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/fond-pages/static/css/main.cd4b2645.chunk.css",
-    "main.js": "/fond-pages/static/js/main.6adca536.chunk.js",
-    "main.js.map": "/fond-pages/static/js/main.6adca536.chunk.js.map",
+    "main.css": "/fond-pages/static/css/main.243111e2.chunk.css",
+    "main.js": "/fond-pages/static/js/main.f9322024.chunk.js",
+    "main.js.map": "/fond-pages/static/js/main.f9322024.chunk.js.map",
     "runtime-main.js": "/fond-pages/static/js/runtime-main.4b35504b.js",
     "runtime-main.js.map": "/fond-pages/static/js/runtime-main.4b35504b.js.map",
-    "static/css/2.c31a3e37.chunk.css": "/fond-pages/static/css/2.c31a3e37.chunk.css",
-    "static/js/2.b9aabb7a.chunk.js": "/fond-pages/static/js/2.b9aabb7a.chunk.js",
-    "static/js/2.b9aabb7a.chunk.js.map": "/fond-pages/static/js/2.b9aabb7a.chunk.js.map",
+    "static/css/2.cbdddf7c.chunk.css": "/fond-pages/static/css/2.cbdddf7c.chunk.css",
+    "static/js/2.2ad5e377.chunk.js": "/fond-pages/static/js/2.2ad5e377.chunk.js",
+    "static/js/2.2ad5e377.chunk.js.map": "/fond-pages/static/js/2.2ad5e377.chunk.js.map",
     "index.html": "/fond-pages/index.html",
-    "precache-manifest.09660101c47ae94a57217a4dee0efb6a.js": "/fond-pages/precache-manifest.09660101c47ae94a57217a4dee0efb6a.js",
+    "precache-manifest.6f6fbefe595a49bb7ca7893d841553f1.js": "/fond-pages/precache-manifest.6f6fbefe595a49bb7ca7893d841553f1.js",
     "service-worker.js": "/fond-pages/service-worker.js",
-    "static/css/2.c31a3e37.chunk.css.map": "/fond-pages/static/css/2.c31a3e37.chunk.css.map",
-    "static/css/main.cd4b2645.chunk.css.map": "/fond-pages/static/css/main.cd4b2645.chunk.css.map",
-    "static/js/2.b9aabb7a.chunk.js.LICENSE.txt": "/fond-pages/static/js/2.b9aabb7a.chunk.js.LICENSE.txt",
+    "static/css/2.cbdddf7c.chunk.css.map": "/fond-pages/static/css/2.cbdddf7c.chunk.css.map",
+    "static/css/main.243111e2.chunk.css.map": "/fond-pages/static/css/main.243111e2.chunk.css.map",
+    "static/js/2.2ad5e377.chunk.js.LICENSE.txt": "/fond-pages/static/js/2.2ad5e377.chunk.js.LICENSE.txt",
     "static/media/a1.jpg": "/fond-pages/static/media/a1.b92e0a67.jpg",
     "static/media/a2.jpg": "/fond-pages/static/media/a2.a033e16f.jpg",
     "static/media/a3.jpg": "/fond-pages/static/media/a3.e42f4dda.jpg",
@@ -82,9 +82,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4b35504b.js",
-    "static/css/2.c31a3e37.chunk.css",
-    "static/js/2.b9aabb7a.chunk.js",
-    "static/css/main.cd4b2645.chunk.css",
-    "static/js/main.6adca536.chunk.js"
+    "static/css/2.cbdddf7c.chunk.css",
+    "static/js/2.2ad5e377.chunk.js",
+    "static/css/main.243111e2.chunk.css",
+    "static/js/main.f9322024.chunk.js"
   ]
 }
