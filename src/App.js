@@ -11,7 +11,8 @@ import store from "./redux/state";
 import BookLectureContainer from "./components/BookLectureContainer/BookLectureContainer";
 import { BrowserView,MobileView} from "react-device-detect";
 import NavBurger from "./components/NavBurger/NavBurger";
-import FaqPageContainer from "./components/FaqPage/FaqPageContainer";
+import FaqPageContainer from "./components/FaqPageContainer/FaqPageContainer";
+import ConsultPageContainer from "./components/ConsultPageContainer/ConsultPageContainer";
 
 // const App123 = (props) => {
 //     return (
@@ -111,6 +112,10 @@ class App extends Component {
                                 <Route
                                     path="/faq"
                                     render={() => <FaqPageContainer store={store} />}
+                                />
+                                <Route
+                                    path="/get-consultation"
+                                    render={() => <ConsultPageContainer store={store} />}
                                 />
                                 <Route
                                     path="/narcotics"

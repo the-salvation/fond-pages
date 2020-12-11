@@ -38,6 +38,9 @@ class Nav extends React.Component {
                 <div className={`${classes.item} ${classes.active}`}>
                     <NavLink to="/get-consultation" onClick={() => { this.props.setNarcoticAC("Consult", this.props.store.Consult) }} activeClassName={classes.active}>Отримати&nbsp;консультацію</NavLink>
                 </div>
+                <div className={`${classes.item} ${classes.active}`}>
+                    <NavLink to="/faq" onClick={() => { this.props.setNarcoticAC("FAQ", this.props.store.FAQ) }} activeClassName={classes.active}>Поширені&nbsp;запитання</NavLink>
+                </div>
                 <Toggle render={({ on, Toggle }) => (
                     <div className={classes.item}>
                         {/* <button onClickCapture>k</button> */}
