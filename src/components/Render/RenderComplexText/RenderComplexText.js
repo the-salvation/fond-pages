@@ -1,5 +1,7 @@
 import React from 'react';
+import Preloader from '../../../Common/Preloader/Preloader';
 import style from './RenderComplexText.module.scss';
+// import preloader from '../../assets/preloaderTransperent.png';
 
 const RenderComplexText = ({partOfState}) => {
     return (
@@ -9,13 +11,13 @@ const RenderComplexText = ({partOfState}) => {
                 {partOfState.pic1 && 
                 <div className={style.opium__textBlock}>
                     <p className={style.opium__text}>
-                        <img className={style.opium__picture} 
+                        {partOfState.pic1 ? (<img className={style.opium__picture} 
                             align="left" 
                             vspace="5" 
                             hspace="15"
-                            src={partOfState.pic1}
+                            src={partOfState.pic1 }
                             width="250px" 
-                            height="200px" alt="pic1"/>
+                            height="200px" alt="pic1"/>) : <Preloader/> } 
                         &nbsp; &nbsp; {partOfState.p1 && partOfState.p1}
                     </p>
                 </div>}
