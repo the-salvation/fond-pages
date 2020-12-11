@@ -4,8 +4,6 @@ import { connect } from 'react-redux';
 import RenderPlainText from '../Render/RenderPlainText/RenderPlainText';
 // import BookLectureForm from '../Forms/BookLectureForm/BookLectureForm';
 // import MyEmail from './Email.js_';
-import { renderEmail } from 'react-html-email';
-import * as axios from "axios";
 
 class BookLectureContainer extends Component {
     // {this.props.state.partOfState.id === "Opium" ? <OneNarcotic partOfState={this.props.state.partOfState}/> : null }
