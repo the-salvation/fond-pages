@@ -6,7 +6,14 @@ import { setNarcoticAC } from '../../redux/narcotics-reducer';
 import { connect } from 'react-redux';
 import { Navbar, Nav } from 'react-bootstrap';
 
+/**
+ * need to add collapse menu link click
+ */
 class NavBurger extends React.Component {
+
+    componentDidMount(){
+        
+    }
 
     render() {
         console.log(this.props);
@@ -16,6 +23,7 @@ class NavBurger extends React.Component {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className={`${classes.navWraper}`} >
+
                         <div className={`${classes.itemNarkoMobile} ${classes.accent}`}>
                             <NavLink to="/main" onClick={() => { this.props.setNarcoticAC('FAQ', this.props.store.FAQ) }} activeClassName={classes.active}>Головна</NavLink>
                         </div>
@@ -23,8 +31,7 @@ class NavBurger extends React.Component {
                             <NavLink to="/faq" onClick={() => { this.props.setNarcoticAC("FAQ", this.props.store.FAQ) }} activeClassName={classes.active}>Поширені&nbsp;запитання</NavLink>
                         </div>
                     
-
-                        <div className={`${classes.itemNarkoMobile}`}>
+                                <div className={`${classes.itemNarkoMobile}`}>
                                     <NavLink to="/narcotics/narcotics" onClick={() => { this.props.setNarcoticAC("Narcotics", this.props.store.Narcotics) }} activeClassName={classes.active}>Дія&nbsp;наркотиків</NavLink>
                                 </div>
                                 <div className={`${classes.itemNarkoMobile}`}>
