@@ -12,9 +12,9 @@ const Img = styled.img`
 `;
 
 const Preloader = (props) => {
-    return <Wrapper>
-        <Img src={preloader} alt=''/>
-    </Wrapper>
-}
+  return <Wrapper>
+    <Img src={preloader} alt=''/>
+  </Wrapper>;
+};
 
 export default Preloader;
