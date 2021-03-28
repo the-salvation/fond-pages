@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import style from "./BookLectureContainer.module.scss";
-import { connect } from "react-redux";
-import RenderPlainText from "../Render/RenderPlainText/RenderPlainText";
+import React, { Component } from 'react';
+import style from './BookLectureContainer.module.scss';
+import { connect } from 'react-redux';
+import RenderPlainText from '../Render/RenderPlainText/RenderPlainText';
 import PropTypes from 'prop-types';
 // import BookLectureForm from '../Forms/BookLectureForm/BookLectureForm';
 // import MyEmail from './Email.js_';

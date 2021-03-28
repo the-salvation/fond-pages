@@ -1,6 +1,6 @@
-import React from "react";
-import { Field, reduxForm } from "redux-form";
-import styles from "./BookLectureForm.module.scss";
+import React from 'react';
+import { Field, reduxForm } from 'redux-form';
+import styles from './BookLectureForm.module.scss';
 import PropTypes from 'prop-types';
 
 export default class BLForm extends React.Component {

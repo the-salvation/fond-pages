@@ -1,7 +1,7 @@
-import React from "react";
-import classes from "./Header.module.scss";
-import HeaderLogo from "./HeaderLogo/HeaderLogo";
-import Search from "../Search/Search";
+import React from 'react';
+import classes from './Header.module.scss';
+import HeaderLogo from './HeaderLogo/HeaderLogo';
+import Search from '../Search/Search';
 
 const Header = () => {
   return (

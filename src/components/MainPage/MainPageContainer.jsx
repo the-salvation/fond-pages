@@ -1,9 +1,9 @@
-import React from "react";
-import MainPage from "./MainPage";
-import { connect } from "react-redux";
-import style from "./MainPage.module.scss";
-import RenderPlainText from "../Render/RenderPlainText/RenderPlainText";
-import { isMobile, isBrowser } from "react-device-detect";
+import React from 'react';
+import MainPage from './MainPage';
+import { connect } from 'react-redux';
+import style from './MainPage.module.scss';
+import RenderPlainText from '../Render/RenderPlainText/RenderPlainText';
+import { isMobile, isBrowser } from 'react-device-detect';
 import PropTypes from 'prop-types';
 
 class MainPageContainer extends React.Component {

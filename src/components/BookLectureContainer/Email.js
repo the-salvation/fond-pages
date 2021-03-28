@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
-import { Email, Item, Span, A } from "react-html-email";
+import React from 'react';
+import { Email, Item, Span, A } from 'react-html-email';
 
 export default function InlineLink(children) {
   const { formData } = children;

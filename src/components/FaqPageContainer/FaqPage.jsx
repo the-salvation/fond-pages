@@ -1,6 +1,6 @@
-import React from "react";
-import Slider from "../Slider/Slider";
-import styles from "./FaqPage.module.scss";
+import React from 'react';
+import Slider from '../Slider/Slider';
+import styles from './FaqPage.module.scss';
 
 const FaqPage = (props) => {
   return (

@@ -1,6 +1,6 @@
-import React from "react";
-import classes from "./Footer.module.scss";
-import FooterInfo from "./FooterInfo/FooterInfo";
+import React from 'react';
+import classes from './Footer.module.scss';
+import FooterInfo from './FooterInfo/FooterInfo';
 
 const Footer = () => {
   return (

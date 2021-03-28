@@ -1,6 +1,6 @@
-import { createStore, combineReducers } from "redux";
-import pageReducer from "./page-reducer";
-import narcoticsReducer from "./narcotics-reducer";
+import { createStore, combineReducers } from 'redux';
+import pageReducer from './page-reducer';
+import narcoticsReducer from './narcotics-reducer';
 import { reducer as reduxFormReducer } from 'redux-form';
 
 let reducers = combineReducers({

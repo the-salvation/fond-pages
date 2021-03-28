@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import style from "./narcoticsContainer.module.scss";
-import { connect } from "react-redux";
-import RenderComplexText from "../Render/RenderComplexText/RenderComplexText";
+import React, { Component } from 'react';
+import style from './narcoticsContainer.module.scss';
+import { connect } from 'react-redux';
+import RenderComplexText from '../Render/RenderComplexText/RenderComplexText';
 import PropTypes from 'prop-types';
 
 class NarcotisContainer extends Component {
@@ -20,7 +20,7 @@ const mapStateToProps = (state) => ({
 });
 
 NarcotisContainer.propTypes = {
-  store: PropTypes.object
+  state: PropTypes.object
 };
 
 

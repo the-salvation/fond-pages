@@ -1,6 +1,6 @@
-import React from "react";
-import Preloader from "../../../Common/Preloader/Preloader";
-import style from "./RenderComplexText.module.scss";
+import React from 'react';
+import Preloader from '../../../Common/Preloader/Preloader';
+import style from './RenderComplexText.module.scss';
 import PropTypes from 'prop-types';
 // import preloader from '../../assets/preloaderTransperent.png';
 
@@ -206,7 +206,7 @@ const RenderComplexText = ({ partOfState }) => {
 };
 
 RenderComplexText.propTypes = {
-  partOfState: PropTypes.object
+  partOfState: PropTypes.string
 };
 
 

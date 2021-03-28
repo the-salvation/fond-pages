@@ -1,9 +1,9 @@
-import React from "react";
-import { connect } from "react-redux";
-import PropTypes from "prop-types";
+import React from 'react';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 
-import style from "./FaqPage.module.scss";
-import RenderPlainText from "../Render/RenderPlainText/RenderPlainText";
+import style from './FaqPage.module.scss';
+import RenderPlainText from '../Render/RenderPlainText/RenderPlainText';
 
 class FaqPageContainer extends React.Component {
   render() {

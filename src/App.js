@@ -1,18 +1,18 @@
-import React, { Component } from "react";
-import classes from "./App.module.scss";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
-import Nav from "./components/Nav/Nav";
-import { Route, BrowserRouter, Switch } from "react-router-dom";
-import MainPageContainer from "./components/MainPage/MainPageContainer";
-import Toggle from "./Common/Preloader/Toggle/Toggle";
-import NarcotisContainer from "./components/Narcotics/NarcoticasContainer";
-import store from "./redux/state";
-import BookLectureContainer from "./components/BookLectureContainer/BookLectureContainer";
-import { BrowserView, MobileView } from "react-device-detect";
-import NavBurger from "./components/NavBurger/NavBurger";
-import FaqPageContainer from "./components/FaqPageContainer/FaqPageContainer";
-import ConsultPageContainer from "./components/ConsultPageContainer/ConsultPageContainer";
+import React, { Component } from 'react';
+import classes from './App.module.scss';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Nav from './components/Nav/Nav';
+import { Route, BrowserRouter, Switch } from 'react-router-dom';
+import MainPageContainer from './components/MainPage/MainPageContainer';
+import Toggle from './Common/Preloader/Toggle/Toggle';
+import NarcotisContainer from './components/Narcotics/NarcoticasContainer';
+import store from './redux/state';
+import BookLectureContainer from './components/BookLectureContainer/BookLectureContainer';
+import { BrowserView, MobileView } from 'react-device-detect';
+import NavBurger from './components/NavBurger/NavBurger';
+import FaqPageContainer from './components/FaqPageContainer/FaqPageContainer';
+import ConsultPageContainer from './components/ConsultPageContainer/ConsultPageContainer';
 
 // const App123 = (props) => {
 //     return (
