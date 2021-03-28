@@ -1,27 +1,32 @@
 import React from 'react';
 // import classes from '*.module.css';
-import styles from '../../../components/Nav/Nav.module.scss'
+import styles from '../../../components/Nav/Nav.module.scss';
+import PropTypes from 'prop-types';
 
 export default class Toggle extends React.Component {
     state = {
-        on: false,
+      on: false,
     };
 
     Toggle = () => {
-        this.setState({
-            on: !this.state.on
-        });
+      this.setState({
+        on: !this.state.on
+      });
     };
 
     render() {
-        const {render} = this.props;
-        return (
-            <div className={styles.toggleWrap}>
-                {render({
-                    on: this.state.on,
-                    Toggle: this.Toggle
-                })}
-            </div>
-        );
+      const { render } = this.props;
+      return (
+        <div className={styles.toggleWrap}>
+          {render({
+            on: this.state.on,
+            Toggle: this.Toggle
+          })}
+        </div>
+      );
     }
 }
+
+Toggle.propTypes = {
+  render: PropTypes.func
+};

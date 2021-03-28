@@ -1,4 +1,5 @@
- {
+
+{
   "extends": "react-app",
   "parserOptions": {
     "sourceType": "module",
@@ -26,9 +27,6 @@
     "react/jsx-uses-vars": [ 1 ],
     "react/jsx-uses-react": [ 1 ],
     "react/prop-types": [ 1 ],
-    "jest/no-disabled-tests": [ 1 ],
-    "jest/no-focused-tests": [ 1 ],
-    "jest/no-identical-title": [ 1 ],
     "no-useless-concat": "off",
     "no-console": [ 1, { "allow": ["warn", "error"] } ]
   },
@@ -36,5 +34,8 @@
     "browser": true,
     "es6": true,
     "node": true
-  }
+  },
+  "plugins": [
+    "import-quotes"
+  ]
 }
