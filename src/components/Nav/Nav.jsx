@@ -9,22 +9,22 @@ import { connect } from 'react-redux';
 
 
 class Nav extends React.Component {
-    // componentDidMount() {
-    //     console.log(this);
-    //     console.log(Object.values(this.props.store));
+    // componentDidMount() {                                                //! NOT WORKING
+    //     console.log('this', this);
+    //     console.log('dik: ', Object.values(this.props.store));
     //     this.navs = Object.values(this.props.store).map( n =>
     //         ( <div className={`${classes.itemNarko}`}>
     //             <NavLink 
     //                 to={`narcotics/${n.id}}`} 
-    //                 onClick={() => { setNarcoticAC(`${n.a}`, n.id) }} 
+    //                 onClick={() => { this.props.setNarcoticAC(`${n.id}`, n) }} 
     //                 activeClassName={classes.active}
     //             >
     //                 {`${n.name}`}
     //             </NavLink>
     //         </div>
     //         )
-    //     )
-    //     console.log('navs', this.navs);
+    //         )
+    //         console.log(this.navs);
     // }
     render() {
         return (

@@ -529,4 +529,4 @@ let store = {
     readMore : false
 }
 export default store;
-window.store = store;
+// window.store = store;
