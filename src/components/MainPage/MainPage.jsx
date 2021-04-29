@@ -5,9 +5,8 @@ import styles from './MainPage.module.scss'
 const MainPage = (props) => {
 	return (
 		<div className={styles.sliderWrapper}>
-			{/* <ProfileInfo profile={props.profile} /> */}
-			<Slider/>
-			{/* <MyPostsContainer /> */}
+			<Slider />
+			HORNEY
 		</div>
 	)
 }

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import style from './BookLectureContainer.module.scss'
 import { connect } from 'react-redux';
 import RenderPlainText from '../Render/RenderPlainText/RenderPlainText';
+import PropTypes from 'prop-types';
 // import BookLectureForm from '../Forms/BookLectureForm/BookLectureForm';
 // import MyEmail from './Email.js_';
 
@@ -36,7 +37,7 @@ class BookLectureContainer extends Component {
     render() {
         return (
             <div className={style.bookLectureContainer}>
-                <RenderPlainText partOfState={this.props.state.partOfState}/>
+                <RenderPlainText {...this.props.bookLectureState.partOfState} />
                 {/* <BookLectureForm form='bookLecture' onSubmit={this.onSubmit}/> */}
             </div>
         )
@@ -44,7 +45,11 @@ class BookLectureContainer extends Component {
 }
 
 const mapStateToProps = (state) => ({
-    state: state.narcoticsReducer
+    bookLectureState: state.bookLectureReducer
 });
+
+BookLectureContainer.propTypes = {
+    faqPageState: PropTypes.object
+};
 
 export default connect(mapStateToProps, {})(BookLectureContainer);

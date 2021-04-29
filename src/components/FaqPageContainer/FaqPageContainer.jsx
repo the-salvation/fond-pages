@@ -7,20 +7,21 @@ import RenderPlainText from '../Render/RenderPlainText/RenderPlainText';
 
 class FaqPageContainer extends React.Component {
 	render() {
+		// console.log('this.propsFAQ', this.props);
 		return (
 			<div className={style.container}>
-				<RenderPlainText partOfState={this.props.faqPageData.FAQ} />
+				<RenderPlainText {...this.props.faqPageState.partOfState} />
 			</div>
 		);
 	}
 }
 
 const mapStateToProps = (state) => ({
-	faqPageData: state.narcoticsReducer
+	faqPageState: state.faqPagereducer
 });
 
 FaqPageContainer.propTypes = {
-	faqPageData: PropTypes.object
+	faqPageState: PropTypes.object
 };
 
 export default connect(mapStateToProps, {})(FaqPageContainer);
