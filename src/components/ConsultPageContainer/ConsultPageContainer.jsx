@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import style from './ConsultPageContainer.module.scss'
 import RenderPlainText from '../Render/RenderPlainText/RenderPlainText';
+import PropTypes from 'prop-types';
 
 class ConsultPageContainer extends React.Component {
 	render() {
@@ -17,5 +18,9 @@ class ConsultPageContainer extends React.Component {
 const mapStateToProps = (state) => ({
 	consultPageState: state.getConsultReducer
 })
+
+ConsultPageContainer.propTypes = {
+	consultPageState: PropTypes.object
+};
 
 export default connect(mapStateToProps, {})(ConsultPageContainer);
