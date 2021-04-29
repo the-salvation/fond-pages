@@ -8,6 +8,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { setFaqAC } from '../../redux/faqPage-reducer';
 import { setBookAC } from '../../redux/bookLecture-reducer';
+import { setConsultAC } from '../../redux/getConsult-reducer';
 
 
 
@@ -24,7 +25,7 @@ class Nav extends React.Component {
           <NavLink to="/book-a-lecture" onClick={() => { setBookAC("BookLecture") }} activeClassName={classes.active}>Замовити&nbsp;лекцію</NavLink>
         </div>
         <div className={`${classes.item} ${classes.active}`}>
-          <NavLink to="/get-consultation" onClick={() => { setNarcoticAC("Consult") }} activeClassName={classes.active}>Отримати&nbsp;консультацію</NavLink>
+          <NavLink to="/get-consultation" onClick={() => { setConsultAC("Consult") }} activeClassName={classes.active}>Отримати&nbsp;консультацію</NavLink>
         </div>
         <div className={`${classes.item} ${classes.active}`}>
           <NavLink to="/faq" onClick={() => { setFaqAC("FAQ") }} activeClassName={classes.active}>Поширені&nbsp;запитання</NavLink>

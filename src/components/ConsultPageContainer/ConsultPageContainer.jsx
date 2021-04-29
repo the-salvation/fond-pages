@@ -6,16 +6,16 @@ import RenderPlainText from '../Render/RenderPlainText/RenderPlainText';
 class ConsultPageContainer extends React.Component {
 	render() {
 		return (
-				<div className={style.container}>
-					<RenderPlainText partOfState={this.props.store.Consult} />
-				</div>
-			
+			<div className={style.container}>
+				<RenderPlainText {...this.props.consultPageState.partOfState} />
+			</div>
+
 		)
 	}
 }
 
 const mapStateToProps = (state) => ({
-	state: state.narcoticsReducer
+	consultPageState: state.getConsultReducer
 })
 
 export default connect(mapStateToProps, {})(ConsultPageContainer);

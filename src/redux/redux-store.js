@@ -5,6 +5,7 @@ import aboutUsReducer from "./aboutUs-reducer";
 import { reducer as reduxFormReducer } from 'redux-form';
 import faqPagereducer from "./faqPage-reducer";
 import bookLectureReducer from "./bookLecture-reducer";
+import getConsultReducer from "./getConsult-reducer";
 
 let reducers = combineReducers({
     pageReducer: pageReducer,
@@ -12,6 +13,7 @@ let reducers = combineReducers({
     aboutUsreducer: aboutUsReducer,
     faqPagereducer: faqPagereducer,
     bookLectureReducer: bookLectureReducer,
+    getConsultReducer: getConsultReducer,
     form: reduxFormReducer,
 });
 
