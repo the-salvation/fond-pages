@@ -2,7 +2,6 @@ import React from 'react';
 import style from './RenderPlainText.module.scss';
 
 const RenderPlainText = (partOfState) => {
-  // console.log('{partOfState}', partOfState)
   return (
     <article className={style.opium}>
       <div className={style.opium_wrapper}>

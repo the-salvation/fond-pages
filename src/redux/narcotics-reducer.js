@@ -501,8 +501,6 @@ const initialState = {
   readMore: false
 }
 
-console.log('initial STATE', initialState)
-
 const narcoticsReducer = (state = initialState, action) => {
   switch (action.type) {
     case SET_NARCOTIC: {

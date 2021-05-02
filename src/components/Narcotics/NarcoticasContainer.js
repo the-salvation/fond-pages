@@ -6,13 +6,11 @@ import RenderComplexText from '../Render/RenderComplexText/RenderComplexText';
 
 class NarcotisContainer extends Component {
   render() {
-
-    // console.log("narcoticsContainerState", this.props.narcoticsContainerState)
     return (
       <div className={style.narcotisContainer} >
         {/* <RenderComplexText partOfState={this.props.narcoticsContainerState.partOfState} /> */}
         <RenderComplexText {...this.props.narcoticsContainerState} />
-      </div >
+      </div>
     )
   }
 }

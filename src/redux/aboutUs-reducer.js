@@ -12,9 +12,6 @@ const initialState = {
 }
 
 const aboutUsreducer = (state = initialState, action) => {
-  // console.log(action)
-
-  // console.log('action.type', action.type)
   switch (action.type) {
 
     default:

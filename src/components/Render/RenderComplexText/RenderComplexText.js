@@ -4,8 +4,6 @@ import style from './RenderComplexText.module.scss';
 // import preloader from '../../assets/preloaderTransperent.png';
 
 const RenderComplexText = ({ partOfState }) => {
-    console.log('render partOfState', partOfState)
-    // console.log('render part', partOfState.Konopli.partOfState.t1)
     return (
         <article className={style.opium}>
             <div className={style.opium_wrapper}>

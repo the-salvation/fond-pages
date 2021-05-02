@@ -7,7 +7,6 @@ import RenderPlainText from '../Render/RenderPlainText/RenderPlainText';
 
 class FaqPageContainer extends React.Component {
 	render() {
-		// console.log('this.propsFAQ', this.props);
 		return (
 			<div className={style.container}>
 				<RenderPlainText {...this.props.faqPageState.partOfState} />

@@ -23,22 +23,10 @@ const initialState = {
   }
 }
 
-// const faqPagereducer = (state = initialState, action) => {
-
-//   // console.log('action.type', action.type)
-//   switch (action.type) {
-
-//     default:
-//       return { ...state };
-//   }
-// };
-
 const faqPagereducer = (state = initialState, action) => {
   switch (action.type) {
     case SET_FAQ: {
       return { visibility: true, partOfState: initialState[action.id] };
-
-
     }
     default:
       return { ...state };
