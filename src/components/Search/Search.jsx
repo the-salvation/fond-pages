@@ -1,6 +1,4 @@
 import React from 'react';
-// import styles from './Search.scss'
-
 
 export default class Search extends React.Component {
     constructor(props) {
@@ -13,7 +11,6 @@ export default class Search extends React.Component {
         document.body.addEventListener('click', this.bodyListenerRemoveSearch.bind(this));
     }
     componentWillUnmount() {
-        console.log('i was unmounted');
         document.body.removeEventListener('click', this.bodyListenerRemoveSearch.bind(this));
     }
 

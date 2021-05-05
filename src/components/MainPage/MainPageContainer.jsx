@@ -7,7 +7,6 @@ import { isMobile, isBrowser } from "react-device-detect";
 
 class MainPageContainer extends React.Component {
 	render() {
-		console.log('MainPageContainer this.props', this.props);
 		return (
 			<div className={style.sliderContainer}>
 				{isBrowser && <MainPage {...this.props} />}

@@ -9,7 +9,7 @@ class NarcotisContainer extends Component {
     return (
       <div className={style.narcotisContainer} >
         <RenderComplexText {...this.props.narcoticsContainerState} />
-      </div >
+      </div>
     )
   }
 }

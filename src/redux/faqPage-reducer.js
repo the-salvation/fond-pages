@@ -27,8 +27,6 @@ const faqPagereducer = (state = initialState, action) => {
   switch (action.type) {
     case SET_FAQ: {
       return { visibility: true, partOfState: initialState[action.id] };
-
-
     }
     default:
       return { ...state };
