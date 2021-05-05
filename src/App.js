@@ -84,9 +84,6 @@ class App extends Component {
         <BrowserRouter>
           <div className={classes.app}>
             <BrowserView viewClassName={classes.app_wrapper_header}>
-              {/* <div className={classes.app_wrapper_header}>
-                              <Header />
-                          </div> */}
               <Header />
             </BrowserView>
             <div className={classes.app_wrapper}>

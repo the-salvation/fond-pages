@@ -12,7 +12,6 @@ class MainPageContainer extends React.Component {
 			<div className={style.sliderContainer}>
 				{isBrowser && <MainPage {...this.props} />}
 				{isMobile && <div className={style.mainPagePic}>[Mobile picture]</div>}
-				{/* <MainPage {...this.props} /> */}
 				<RenderPlainText {...this.props.aboutUsState.partOfState} />
 			</div>
 

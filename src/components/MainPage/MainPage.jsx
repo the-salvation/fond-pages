@@ -6,7 +6,6 @@ const MainPage = (props) => {
 	return (
 		<div className={styles.sliderWrapper}>
 			<Slider />
-			HORNEY
 		</div>
 	)
 }

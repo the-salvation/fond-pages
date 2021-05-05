@@ -25,8 +25,6 @@ const bookLectureReducer = (state = initialState, action) => {
   switch (action.type) {
     case SET_BOOKLECTURE: {
       return { visibility: true, partOfState: initialState[action.id] };
-
-
     }
     default:
       return { ...state };

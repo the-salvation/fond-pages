@@ -5,9 +5,7 @@ import styles from './FaqPage.module.scss'
 const FaqPage = (props) => {
 	return (
 		<div className={styles.sliderWrapper}>
-			{/* <ProfileInfo profile={props.profile} /> */}
-			<Slider/>
-			{/* <MyPostsContainer /> */}
+			<Slider />
 		</div>
 	)
 }

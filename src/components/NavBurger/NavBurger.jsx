@@ -115,13 +115,6 @@ class NavBurger extends React.Component {
             <div className={`${classes.itemNarkoMobile}`}>
               <NavLink to="/narcotics/methadone" onClick={() => { setNarcoticAC("Methadone", navBurgerState.Methadone) }} activeClassName={classes.active}>Метадон</NavLink>
             </div>
-
-
-
-            {/* <Nav.Link href="#deets">More deets</Nav.Link>
-                        <Nav.Link eventKey={2} href="#memes">
-                            Dank memes
-                        </Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>
