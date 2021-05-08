@@ -1,10 +1,9 @@
 import React from 'react';
 import Preloader from '../../../Common/Preloader/Preloader';
 import style from './RenderComplexText.module.scss';
-// import preloader from '../../assets/preloaderTransperent.png';
 
 const RenderComplexText = ({ partOfState }) => {
-  console.log('render partOfState', partOfState)
+
   return (
     <article className={style.opium}>
       <div className={style.opium_wrapper}>
