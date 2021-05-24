@@ -11,13 +11,13 @@ class ConsultPageContainer extends React.Component {
         <RenderPlainText {...this.props.consultPageState.partOfState} />
       </div>
 
-    )
+    );
   }
 }
 
 const mapStateToProps = (state) => ({
   consultPageState: state.getConsultReducer
-})
+});
 
 ConsultPageContainer.propTypes = {
   consultPageState: PropTypes.object

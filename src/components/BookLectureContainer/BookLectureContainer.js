@@ -3,7 +3,6 @@ import style from './BookLectureContainer.module.scss';
 import { connect } from 'react-redux';
 import RenderPlainText from '../Render/RenderPlainText/RenderPlainText';
 import PropTypes from 'prop-types';
-import BookLectureForm from '../Forms/BookLectureForm/BookLectureForm';
 
 class BookLectureContainer extends Component {
   render() {
@@ -11,7 +10,7 @@ class BookLectureContainer extends Component {
       <div className={style.bookLectureContainer}>
         <RenderPlainText {...this.props.bookLectureState.partOfState} />
       </div>
-    )
+    );
   }
 }
 

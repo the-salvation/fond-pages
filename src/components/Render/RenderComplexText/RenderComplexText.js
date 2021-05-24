@@ -3,9 +3,7 @@ import Preloader from '../../../Common/Preloader/Preloader';
 import style from './RenderComplexText.module.scss';
 import PropTypes from 'prop-types';
 
-
 const RenderComplexText = ({ partOfState }) => {
-
   return (
     <article className={style.opium}>
       <div className={style.opium_wrapper}>
@@ -154,8 +152,12 @@ const RenderComplexText = ({ partOfState }) => {
       </div>
 
     </article>
-  )
-}
+  );
+};
+
+RenderComplexText.propTypes = {
+  partOfState: PropTypes.object
+};
 
 
 export default RenderComplexText;
