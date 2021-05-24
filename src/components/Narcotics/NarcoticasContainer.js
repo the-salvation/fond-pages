@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import style from './narcoticsContainer.module.scss'
+import style from './narcoticsContainer.module.scss';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import RenderComplexText from '../Render/RenderComplexText/RenderComplexText';
@@ -21,5 +21,10 @@ NarcotisContainer.propTypes = {
 const mapStateToProps = (state) => ({
   narcoticsContainerState: state.narcoticsReducer
 });
+
+NarcotisContainer.propTypes = {
+  state: PropTypes.object
+};
+
 
 export default connect(mapStateToProps, {})(NarcotisContainer);

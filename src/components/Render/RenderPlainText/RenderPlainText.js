@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './RenderPlainText.module.scss';
+import PropTypes from 'prop-types';
 
 const RenderPlainText = (partOfState) => {
   return (
@@ -65,7 +66,7 @@ const RenderPlainText = (partOfState) => {
       </div>
 
     </article>
-  )
-}
+  );
+};
 
 export default RenderPlainText;

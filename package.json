@@ -11,14 +11,20 @@
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
+    "eslint": "6.6.0",
+    "eslint-config-react-app": "5.1.0",
+    "eslint-loader": "3.0.2",
+    "eslint-plugin-flowtype": "3.13.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.16.0",
+    "eslint-plugin-react-hooks": "1.6.1",
     "node-sass": "^4.14.1",
-    "nodemailer": "^6.5.0",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
     "react-bootstrap": "^1.5.2",
     "react-device-detect": "^1.17.0",
     "react-dom": "^16.14.0",
-    "react-html-email": "^3.0.0",
     "react-redux": "^7.2.3",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.0",
@@ -33,7 +39,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "npm run build",
-    "predeploy": "gh-pages -d build"
+    "predeploy": "gh-pages -d build",
+    "lint": "eslint src/**/*.js --ext .jsx" 
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -51,6 +58,22 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "babel-eslint": "10.0.3",
+    "babel-loader": "8.0.6",
+    "babel-plugin-named-asset-import": "0.3.5",
+    "babel-preset-react-app": "9.1.0",
+    "case-sensitive-paths-webpack-plugin": "2.2.0",
+    "eslint": "6.6.0",
+    "eslint-config-react-app": "5.1.0",
+    "eslint-loader": "3.0.2",
+    "eslint-plugin-flowtype": "3.13.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-import-quotes": "0.0.1",
+    "eslint-plugin-jest": "23.2.0",
+    "eslint-plugin-react": "7.16.0",
+    "gh-pages": "^3.1.0",
+    "prettier-eslint": "^12.0.0",
+    "react-app-polyfill": "1.0.5",
+    "react-dev-utils": "^11.0.4"
   }
 }
