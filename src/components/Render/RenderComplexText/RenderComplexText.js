@@ -1,6 +1,7 @@
 import React from 'react';
 import Preloader from '../../../Common/Preloader/Preloader';
 import style from './RenderComplexText.module.scss';
+import PropTypes from 'prop-types';
 // import preloader from '../../assets/preloaderTransperent.png';
 
 const RenderComplexText = ({ partOfState }) => {
@@ -156,5 +157,5 @@ const RenderComplexText = ({ partOfState }) => {
   )
 }
 
-export default RenderComplexText;
 
+export default RenderComplexText;
