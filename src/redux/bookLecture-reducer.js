@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 const SET_BOOKLECTURE = 'SET_BOOKLECTURE';
 const initialState = {
   partOfState: {
@@ -19,7 +20,7 @@ const initialState = {
     p7: 'Для того, щоб замовити проведення лекції, зателефонуйте нам (057)714-31-77 або напишіть за адресою fondnn.ukr@gmail.com',
 
   }
-}
+};
 
 const bookLectureReducer = (state = initialState, action) => {
   switch (action.type) {

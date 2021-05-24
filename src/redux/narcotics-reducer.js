@@ -1,3 +1,5 @@
+/* eslint-disable max-len */
+/* eslint-disable indent */
 import OpiumPic1 from '../assets/images/opiats/mak_green.jpg';
 import OpiumPic2 from '../assets/images/opiats/opiat_mak.jpg';
 import OpiumPic3 from '../assets/images/opiats/opiat_mak2.jpg';
@@ -499,7 +501,7 @@ const initialState = {
     pic4: ToxicPic4,
   },
   readMore: false
-}
+};
 
 const narcoticsReducer = (state = initialState, action) => {
   switch (action.type) {

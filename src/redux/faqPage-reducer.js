@@ -1,3 +1,5 @@
+/* eslint-disable indent */
+/* eslint-disable max-len */
 const SET_FAQ = 'SET_FAQ';
 const initialState = {
   partOfState: {
@@ -21,7 +23,7 @@ const initialState = {
     p8: 'Ви можете отримати безкоштовну анонімну консультацію з питань, які стосуються вживання наркотиків, за нашим телефоном (057)714-31-77 або за адресою fondnn.ukr@gmail.com.',
 
   }
-}
+};
 
 const faqPagereducer = (state = initialState, action) => {
   switch (action.type) {

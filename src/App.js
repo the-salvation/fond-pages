@@ -1,21 +1,21 @@
-import React, { Component } from "react";
-import { Provider } from "react-redux";
-import { Route, BrowserRouter, Switch } from "react-router-dom";
-import { BrowserView, MobileView } from "react-device-detect";
+import React, { Component } from 'react';
+import { Provider } from 'react-redux';
+import { Route, BrowserRouter, Switch } from 'react-router-dom';
+import { BrowserView, MobileView } from 'react-device-detect';
 
-import classes from "./App.module.scss";
-import store from "./redux/redux-store";
-import Toggle from "./Common/Preloader/Toggle/Toggle";
+import classes from './App.module.scss';
+import store from './redux/redux-store';
+import Toggle from './Common/Preloader/Toggle/Toggle';
 
-import Header from "./components/Header/Header";
-import Nav from "./components/Nav/Nav";
-import NavBurger from "./components/NavBurger/NavBurger";
-import MainPageContainer from "./components/MainPage/MainPageContainer";
-import NarcotisContainer from "./components/Narcotics/NarcoticasContainer";
-import BookLectureContainer from "./components/BookLectureContainer/BookLectureContainer";
-import FaqPageContainer from "./components/FaqPageContainer/FaqPageContainer";
-import ConsultPageContainer from "./components/ConsultPageContainer/ConsultPageContainer";
-import Footer from "./components/Footer/Footer";
+import Header from './components/Header/Header';
+import Nav from './components/Nav/Nav';
+import NavBurger from './components/NavBurger/NavBurger';
+import MainPageContainer from './components/MainPage/MainPageContainer';
+import NarcotisContainer from './components/Narcotics/NarcoticasContainer';
+import BookLectureContainer from './components/BookLectureContainer/BookLectureContainer';
+import FaqPageContainer from './components/FaqPageContainer/FaqPageContainer';
+import ConsultPageContainer from './components/ConsultPageContainer/ConsultPageContainer';
+import Footer from './components/Footer/Footer';
 
 class App extends Component {
   render() {
