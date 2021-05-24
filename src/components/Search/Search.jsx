@@ -1,11 +1,17 @@
-import React from "react";
-// import styles from './Search.scss'
+import React from 'react';
 
 export default class Search extends React.Component {
   constructor(props) {
     super(props);
     this.SearchRef = React.createRef();
     this.InputRef = React.createRef();
+  }
+
+  componentDidMount() {
+    document.body.addEventListener('click', this.bodyListenerRemoveSearch.bind(this));
+  }
+  componentWillUnmount() {
+    document.body.removeEventListener('click', this.bodyListenerRemoveSearch.bind(this));
   }
 
   componentDidMount() {

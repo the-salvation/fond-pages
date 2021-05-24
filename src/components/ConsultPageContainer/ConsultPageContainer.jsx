@@ -8,19 +8,19 @@ class ConsultPageContainer extends React.Component {
   render() {
     return (
       <div className={style.container}>
-        <RenderPlainText partOfState={this.props.store.Consult} />
+        <RenderPlainText {...this.props.consultPageState.partOfState} />
       </div>
-    );
+
+    )
   }
 }
 
 const mapStateToProps = (state) => ({
-  state: state.narcoticsReducer,
-});
+  consultPageState: state.getConsultReducer
+})
 
 ConsultPageContainer.propTypes = {
-  store: PropTypes.object
+  consultPageState: PropTypes.object
 };
-
 
 export default connect(mapStateToProps, {})(ConsultPageContainer);

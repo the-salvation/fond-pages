@@ -14,8 +14,8 @@ class BookLectureContainer extends Component {
   //     // console.log(formData);
 
   //     axios({
-  //         method: "POST",
-  //         url:"https://www.fondnn.org.ua/book-a-lecture/send",
+  //         method: "POST", 
+  //         url:"https://www.fondnn.org.ua/book-a-lecture/send", 
   //         data: {
   //             name: formData.firstName,
   //             email: formData.email,
@@ -23,7 +23,7 @@ class BookLectureContainer extends Component {
   //         }
   //     }).then((response)=>{
   //         if (response.data.msg === 'success'){
-  //             console.log("Email sent, awesome!");
+  //             console.log("Email sent, awesome!"); 
   //             // this.resetForm()
   //         }else if(response.data.msg === 'fail'){
   //             console.log("Oops, something went wrong. Try again")
@@ -33,23 +33,23 @@ class BookLectureContainer extends Component {
 
   // };
 
+
   render() {
     return (
       <div className={style.bookLectureContainer}>
-        <RenderPlainText partOfState={this.props.state.partOfState} />
+        <RenderPlainText {...this.props.bookLectureState.partOfState} />
         {/* <BookLectureForm form='bookLecture' onSubmit={this.onSubmit}/> */}
       </div>
-    );
+    )
   }
 }
 
 const mapStateToProps = (state) => ({
-  state: state.narcoticsReducer,
+  bookLectureState: state.bookLectureReducer
 });
 
 BookLectureContainer.propTypes = {
-  state: PropTypes.object
+  faqPageState: PropTypes.object
 };
-
 
 export default connect(mapStateToProps, {})(BookLectureContainer);
