@@ -19,8 +19,6 @@ class Nav extends React.Component {
   render() {
     const { setNarcoticAC, allNarcotics } = this.props;
 
-    console.log(allNarcotics, " allNarcotics in NAV");
-
     return (
       <nav className={classes.nav}>
         <div className={`${classes.item} ${classes.active}`}>
@@ -49,7 +47,7 @@ class Nav extends React.Component {
                       <div key={narcotic.name} className={`${classes.itemNarko}`}>
                         <NavLink to={`/narcotics/${narcotic.name}`} onClick={() => { setNarcoticAC(narcotic.name); }} activeClassName={classes.active}>{narcotic.descr}</NavLink>
                       </div>
-                    )
+                    );
                   })
                 }
               </div>
@@ -65,12 +63,13 @@ class Nav extends React.Component {
 }
 
 Nav.propTypes = {
-  setNarcoticAC: PropTypes.func
+  setNarcoticAC: PropTypes.func,
+  allNarcotics: PropTypes.array
 };
 
 export default connect(
   state => ({
-    allNarcotics : state.narcoticsReducer.allNarcotics
+    allNarcotics: state.narcoticsReducer.allNarcotics
   }),
   dispatch => {
     return bindActionCreators({
