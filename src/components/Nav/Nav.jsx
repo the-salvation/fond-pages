@@ -18,7 +18,7 @@ class Nav extends React.Component {
 
   render() {
     const { setNarcoticAC, allNarcotics } = this.props;
-
+    console.log(classes);
     return (
       <nav className={classes.nav}>
         <div className={`${classes.item} ${classes.active}`}>
@@ -35,8 +35,8 @@ class Nav extends React.Component {
         </div>
         <Toggle render={({ on, Toggle }) => (
           <div className={classes.item}>
-            <div className={classes.item}>
-              <a onClick={Toggle} href="#" className={classes.active}>Правда&nbsp;про&nbsp;наркотики</a>
+            <div className={`${classes.item} ${classes.highlited}`}>
+              <a onClick={Toggle} href="#" className={classes.highlited} >Правда&nbsp;про&nbsp;наркотики</a>
             </div>
             {
               on &&

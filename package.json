@@ -1,36 +1,28 @@
 {
   "name": "fondnn",
-  "homepage": "https://noachase.github.io/fond-pages/",
+  "homepage": "http://www.fondnn.org.ua",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.11.3",
+    "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
-    "eslint": "6.6.0",
-    "eslint-config-react-app": "5.1.0",
-    "eslint-loader": "3.0.2",
-    "eslint-plugin-flowtype": "3.13.0",
-    "eslint-plugin-import": "2.18.2",
-    "eslint-plugin-jsx-a11y": "6.2.3",
-    "eslint-plugin-react": "7.16.0",
-    "eslint-plugin-react-hooks": "1.6.1",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
-    "react-bootstrap": "^1.5.2",
+    "react-bootstrap": "^1.6.0",
     "react-device-detect": "^1.17.0",
     "react-dom": "^16.14.0",
-    "react-redux": "^7.2.3",
+    "react-redux": "^7.2.4",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.0",
-    "redux": "^4.0.5",
+    "react-scripts": "^4.0.3",
+    "redux": "^4.1.0",
     "redux-form": "^8.3.7",
-    "styled-components": "^5.2.1",
+    "styled-components": "^5.3.0",
     "typeface-roboto": "0.0.75"
   },
   "scripts": {
@@ -40,7 +32,7 @@
     "eject": "react-scripts eject",
     "deploy": "npm run build",
     "predeploy": "gh-pages -d build",
-    "lint": "eslint src/**/*.js --ext .jsx" 
+    "lint": "eslint src/**/*.js --ext .jsx"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -58,22 +50,19 @@
     ]
   },
   "devDependencies": {
-    "babel-eslint": "10.0.3",
-    "babel-loader": "8.0.6",
     "babel-plugin-named-asset-import": "0.3.5",
     "babel-preset-react-app": "9.1.0",
     "case-sensitive-paths-webpack-plugin": "2.2.0",
-    "eslint": "6.6.0",
+    "gh-pages": "^3.2.0",
+    "prettier-eslint": "^12.0.0",
+    "react-app-polyfill": "1.0.5",
+    "react-dev-utils": "^11.0.4",
     "eslint-config-react-app": "5.1.0",
     "eslint-loader": "3.0.2",
     "eslint-plugin-flowtype": "3.13.0",
     "eslint-plugin-import": "2.18.2",
     "eslint-plugin-import-quotes": "0.0.1",
     "eslint-plugin-jest": "23.2.0",
-    "eslint-plugin-react": "7.16.0",
-    "gh-pages": "^3.1.0",
-    "prettier-eslint": "^12.0.0",
-    "react-app-polyfill": "1.0.5",
-    "react-dev-utils": "^11.0.4"
+    "eslint-plugin-react": "7.16.0"
   }
 }

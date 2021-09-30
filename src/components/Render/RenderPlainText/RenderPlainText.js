@@ -2,9 +2,10 @@ import React from 'react';
 import style from './RenderPlainText.module.scss';
 
 const RenderPlainText = (partOfState) => {
+  console.log(style);
   return (
     <article className={style.opium}>
-      <div className={style.opium_wrapper}>
+      <div className={`${style.opium_wrapper} ${style.h2TopGap}`}>
 
         {partOfState.t1 && <h2>{partOfState.t1}</h2>}
         {partOfState.p1 &&
