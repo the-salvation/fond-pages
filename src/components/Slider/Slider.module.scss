@@ -20,12 +20,6 @@
     height: 100%;
 }
 
-@media screen and (max-width: 1920px) {
-    .imgItem {
-        
-    }
-}
-
 @media screen and (max-width: 1600px) {
     .imgItem {
         min-width: 900px;
@@ -64,7 +58,6 @@
         height: 350px;
     }
     .imgItem {
-        // max-height: 350px;
         min-width: 450px;
     }
 }
@@ -74,8 +67,7 @@
         height: 350px;
     }
     .imgItem {
-        // max-height: 350px;
-        max-width: 350px;
+        min-width: 350px;
     }
 }
 
