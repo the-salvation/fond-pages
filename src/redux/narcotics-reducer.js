@@ -135,7 +135,7 @@ const initialState = {
     { name: "Morphine", descr: 'Морфін' },
     { name: "Poppy", descr: 'Мак снодійний' },
     { name: "Alcohol", descr: 'Алкоголь' },
-    { name: "Previtin", descr: 'Первітин' },
+    { name: "Pervitin", descr: 'Первітин' },
     { name: "Lsd", descr: 'ЛСД' },
     { name: "Cocaine", descr: 'Кокаїн' },
     { name: "Toxic", descr: 'Токсикоманія' }

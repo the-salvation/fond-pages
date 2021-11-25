@@ -12,13 +12,10 @@ import { setBookAC } from '../../redux/bookLecture-reducer';
 import { setConsultAC } from '../../redux/getConsult-reducer';
 import PropTypes from 'prop-types';
 
-
-
 class Nav extends React.Component {
 
   render() {
     const { setNarcoticAC, allNarcotics } = this.props;
-    console.log(classes);
     return (
       <nav className={classes.nav}>
         <div className={`${classes.item} ${classes.active}`}>

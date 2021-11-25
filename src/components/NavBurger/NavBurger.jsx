@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import classes from './NavBurger.module.scss';
@@ -6,6 +7,7 @@ import { setNarcoticAC } from '../../redux/narcotics-reducer';
 import { connect } from 'react-redux';
 import { Navbar, Nav } from 'react-bootstrap';
 import { bindActionCreators } from 'redux';
+import PropTypes from 'prop-types';
 
 /**
  * need to add collapse menu link click
@@ -123,10 +125,13 @@ class NavBurger extends React.Component {
   }
 }
 
-// export default Nav;
+NavBurger.propTypes = {
+  setNarcoticAC: PropTypes.func,
+  store: PropTypes.object
+};
 
 // let mapStateToProps = (state) => ({
-//   navBurgerState: state
+//   state: state,
 // });
 
 export default connect(

@@ -4,6 +4,7 @@ import style from './RenderComplexText.module.scss';
 import PropTypes from 'prop-types';
 
 const RenderComplexText = ({ partOfState }) => {
+  console.log("🚀 ~ file: RenderComplexText.js ~ line 7 ~ RenderComplexText ~ partOfState", partOfState)
   return (
     <article className={style.opium}>
       <div className={style.opium_wrapper}>

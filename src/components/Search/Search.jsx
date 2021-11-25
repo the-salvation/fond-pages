@@ -1,12 +1,11 @@
 import React from 'react';
-
+// import styles from './Search.scss'
 export default class Search extends React.Component {
   constructor(props) {
     super(props);
     this.SearchRef = React.createRef();
     this.InputRef = React.createRef();
   }
-
   componentDidMount() {
     document.body.addEventListener('click', this.bodyListenerRemoveSearch.bind(this));
   }
@@ -73,6 +72,7 @@ export default class Search extends React.Component {
 
   render() {
     return (
+
       <div
         className={"searchWrapper"}
         onClick={(event) => {
