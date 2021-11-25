@@ -3,12 +3,25 @@ import { connect } from 'react-redux';
 import style from './ConsultPageContainer.module.scss';
 import RenderPlainText from '../Render/RenderPlainText/RenderPlainText';
 import PropTypes from 'prop-types';
+import { Image } from 'react-bootstrap';
+import callImg from '../../assets/images/consultPage/call.jpg';
 
 class ConsultPageContainer extends React.Component {
   render() {
     return (
       <div className={style.container}>
-        <RenderPlainText {...this.props.consultPageState.partOfState} />
+        <div className='contentWrapper'>
+          <div className="imageWrapper">
+            <Image
+              src={callImg}
+              width={200}
+              height={200}
+            />
+          </div>
+          <div className="textWrapper">
+            <RenderPlainText {...this.props.consultPageState.partOfState} />
+          </div>
+        </div>
       </div>
 
     );
