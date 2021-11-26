@@ -4,6 +4,10 @@
     }
 }
 
+.h2TopGap h2 {
+    margin-top: 30px !important;
+}
+
 article.opium {
     margin-top: 25px;
     color: rgb(233, 221, 221);
@@ -25,7 +29,7 @@ article.opium {
 }
 .opium_wrapper {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center ;

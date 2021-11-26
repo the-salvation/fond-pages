@@ -14,21 +14,15 @@
 .imgItem {
     max-height: 650px;
     min-height: 350px;
-    max-width: 1200px;
-    min-width: 300px;
-    width: 100%;
+    max-width: 100%;
+    min-width: 1200px;
+    // width: 100%;
     height: 100%;
-}
-
-@media screen and (max-width: 1920px) {
-    .imgItem {
-        width: 1200px;
-    }
 }
 
 @media screen and (max-width: 1600px) {
     .imgItem {
-        width: 1200px;
+        min-width: 900px;
     }
 }
 
@@ -37,7 +31,7 @@
         height: 550px;
     }
     .imgItem {
-        max-width: 700px;
+        min-width: 700px;
     }
 }
 
@@ -64,8 +58,7 @@
         height: 350px;
     }
     .imgItem {
-        // max-height: 350px;
-        max-width: 450px;
+        min-width: 450px;
     }
 }
 
@@ -74,8 +67,7 @@
         height: 350px;
     }
     .imgItem {
-        // max-height: 350px;
-        max-width: 350px;
+        min-width: 350px;
     }
 }
 

@@ -7,17 +7,10 @@ export default class Search extends React.Component {
     this.InputRef = React.createRef();
   }
   componentDidMount() {
-    document.body.addEventListener(
-      "click",
-      this.bodyListenerRemoveSearch.bind(this)
-    );
+    document.body.addEventListener('click', this.bodyListenerRemoveSearch.bind(this));
   }
   componentWillUnmount() {
-    // console.log("i was unmounted");
-    document.body.removeEventListener(
-      "click",
-      this.bodyListenerRemoveSearch.bind(this)
-    );
+    document.body.removeEventListener('click', this.bodyListenerRemoveSearch.bind(this));
   }
 
   inputFocus() {
