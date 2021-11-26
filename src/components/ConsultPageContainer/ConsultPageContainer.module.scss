@@ -40,8 +40,20 @@
 }
 
 .contentWrapper{
+display: flex;
+max-height: 100%;
+max-width: 100%;
+flex-wrap: wrap;
+
 
     @media (max-width: 768px) {
+        flex-direction: column !important;
+        min-height: 800px;
+    }
+    @media (max-width: 425px) {
+        flex-direction: column !important;
+    }
+    @media (max-width: 375px) {
         flex-direction: column !important;
     }
 }
