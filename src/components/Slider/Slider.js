@@ -1,6 +1,5 @@
 import React from 'react';
 import bookLecture from './../../assets/images/slider/book-lecture.jpg';
-import aboutUs from './../../assets/images/slider/about-us.jpg';
 import getConsultationImg from './../../assets/images/slider/consultalion.png';
 import styles from './Slider.module.scss';
 import { Carousel } from 'react-bootstrap';
@@ -17,7 +16,6 @@ export default class Slider extends React.Component {
                 className={`d-block ${styles.imgItem}`}
                 src={bookLecture}
                 alt="book-a-lecture"
-
               />
             </NavLink>
           }
